@@ -68,8 +68,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
 ### 📊 My GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=[XTripsy]&show_icons=true&theme=dracula" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[XTripsy]&layout=compact&theme=dracula" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=XTripsy&show_icons=true&theme=dracula" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=XTripsy&layout=compact&theme=dracula" alt="Top Languages"/>
 </p>
 
 ---
@@ -77,10 +77,16 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
 ### 📫 Let's Connect!
 
 <p align="center">
-  <a href="[LINK-LINKEDIN-KAMU]">
+  <a href="https://www.instagram.com/ya.aditt_/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="[LINK-ITCHIO-KAMU]">
+  <a href="https://aditya-muhammad-ifanrus.itch.io/">
     <img src="https://img.shields.io/badge/itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="itch.io"/>
+  </a>
+  <a href="https://x.com/x_Aditt">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/>
   </a>
 </p>
