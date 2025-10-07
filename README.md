@@ -1,16 +1,86 @@
-## Hi there 👋
+### Hi there, I'm Aditya 👋
 
-<!--
-**XTripsy/XTripsy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optimized code, designing scalable gameplay systems, and exploring robust game architecture patterns. Currently, I'm diving deep into low-level game development.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🎮 My Projects
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Nama Game Pertamamu</h3>
+      <p align="center">
+        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU]" target="_blank">
+          <img src="[LINK-KE-GIF-GAMEMU]" width="100%" alt="Project GIF"/>
+        </a>
+        <br />
+        <em><sub align="center">Deskripsi singkat game pertamamu di sini. Misal: "A fast-paced 2D platformer made with Unity."</sub></em>
+        <br />
+        <p align="center">
+          <a href="[LINK-REPO-GITHUB-PROYEK-INI]" target="_blank">
+            <b>View Code</b>
+          </a> 
+          &nbsp;|&nbsp; 
+          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU]" target="_blank">
+            <b>Play Demo</b>
+          </a>
+        </p>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">Nama Game Keduamu</h3>
+       <p align="center">
+        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+        </a>
+        <br />
+        <em><sub align="center">Deskripsi singkat game keduamu di sini. Misal: "A survival horror prototype built with Unreal Engine."</sub></em>
+        <br />
+        <p align="center">
+          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <b>View Code</b>
+          </a> 
+          &nbsp;|&nbsp; 
+          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+            <b>Play Demo</b>
+          </a>
+        </p>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🛠️ My Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black" alt="Unity"/>
+  <img src="https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+</p>
+
+---
+
+### 📊 My GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=[NAMA-USERNAMEMU]&show_icons=true&theme=dracula" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[NAMA-USERNAMEMU]&layout=compact&theme=dracula" alt="Top Languages"/>
+</p>
+
+---
+
+### 📫 Let's Connect!
+
+<p align="center">
+  <a href="[LINK-LINKEDIN-KAMU]">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="[LINK-ITCHIO-KAMU]">
+    <img src="https://img.shields.io/badge/itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="itch.io"/>
+  </a>
+</p>
