@@ -68,8 +68,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
 ### 📊 My GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=[NAMA-USERNAMEMU]&show_icons=true&theme=dracula" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[NAMA-USERNAMEMU]&layout=compact&theme=dracula" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=[XTripsy]&show_icons=true&theme=dracula" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[XTripsy]&layout=compact&theme=dracula" alt="Top Languages"/>
 </p>
 
 ---
