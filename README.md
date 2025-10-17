@@ -75,22 +75,23 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
       </p>
     </td>
   </tr>
-  <td width="50%">
-      <h3 align="center">Neo Strife</h3>
-       <p align="center">
-        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
-        </a>
-        <br />
-        <em><sub align="center">Ini adalah project individuku, jadi game ini adalah game 3d fast space fps, namun menggunakan art pixel. game ini di buat di unreal yang menggunakan c++ only, aku sama sekali tidak membuat blueprint di project ini."</sub></em>
-        <br />
-        <p align="center">
-          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
-            <b>View Detail</b>
-          </a> 
+  <tr>
+    <td width="50%">
+        <h3 align="center">Neo Strife</h3>
+         <p align="center">
+          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+            <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+          </a>
+          <br />
+          <em><sub align="center">Ini adalah project individuku, jadi game ini adalah game 3d fast space fps, namun menggunakan art pixel. game ini di buat di unreal yang menggunakan c++ only, aku sama sekali tidak membuat blueprint di project ini."</sub></em>
+          <br />
+          <p align="center">
+            <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+              <b>View Detail</b>
+            </a> 
+          </p>
         </p>
-      </p>
-    </td>
+      </td>
   <td width="50%">
       <h3 align="center">Dgreek Cook</h3>
        <p align="center">
@@ -107,22 +108,24 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         </p>
       </p>
     </td>
-  <td width="50%">
-      <h3 align="center">Carnival</h3>
-       <p align="center">
-        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
-        </a>
-        <br />
-        <em><sub align="center">Ini adalah project game ke dua AEGIS. game ini di buat untuk mengikuti gameseed, dan ada kabar sedikit baik, kami ada di urutan top 20, dan kabar buruknya seperti biasa kami gagal menjuarainya. game ini di buat di unity engine."</sub></em>
-        <br />
-        <p align="center">
-          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
-            <b>View Detail</b>
-          </a> 
+  </tr>
+  <tr>
+    <td width="50%">
+        <h3 align="center">Carnival</h3>
+         <p align="center">
+          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+            <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+          </a>
+          <br />
+          <em><sub align="center">Ini adalah project game ke dua AEGIS. game ini di buat untuk mengikuti gameseed, dan ada kabar sedikit baik, kami ada di urutan top 20, dan kabar buruknya seperti biasa kami gagal menjuarainya. game ini di buat di unity engine."</sub></em>
+          <br />
+          <p align="center">
+            <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+              <b>View Detail</b>
+            </a> 
+          </p>
         </p>
-      </p>
-    </td>
+      </td>
     <td width="50%">
       <h3 align="center">Triple Shift</h3>
        <p align="center">
