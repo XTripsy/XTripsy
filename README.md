@@ -19,12 +19,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         <br />
         <p align="center">
           <a href="[LINK-REPO-GITHUB-PROYEK-INI]" target="_blank">
-            <b>View Code</b>
+            <b>View Detail</b>
           </a> 
-          &nbsp;|&nbsp; 
-          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU]" target="_blank">
-            <b>Play Demo</b>
-          </a>
         </p>
       </p>
     </td>
@@ -39,12 +35,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         <br />
         <p align="center">
           <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
-            <b>View Code</b>
+            <b>View Detail</b>
           </a> 
-          &nbsp;|&nbsp; 
-          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-            <b>Play Demo</b>
-          </a>
         </p>
       </p>
     </td>
