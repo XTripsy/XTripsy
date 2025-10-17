@@ -58,6 +58,22 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           </p>
         </p>
       </td>
+  <td width="50%">
+      <h3 align="center">Triple Shift</h3>
+       <p align="center">
+        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+        </a>
+        <br />
+        <em><sub align="center">Ini adalah project berdua dengan temanku yang role artis. konsepnya kami ingin membuat game tic tac toe namun kita modifikasi jadi seperti rouglike, game ini local multiplayer. jadi di game ini kamu bisa bermain melawan temanmu seperti game tic tac toe pada umumnya. di project ini aku pakek engine custom, aku pakai Graphic API OpenGL untuk renderingnya dan GLFW untuk input dan windownya, serta aku juga menerapkan beberapa design patttern dan ECS entity component system di project ini"</sub></em>
+        <br />
+        <p align="center">
+          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <b>View Detail</b>
+          </a> 
+        </p>
+      </p>
+    </td>
   </tr>
   <tr>
     <td width="50%">
@@ -110,22 +126,6 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           </p>
         </p>
       </td>
-    <td width="50%">
-      <h3 align="center">Triple Shift</h3>
-       <p align="center">
-        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
-        </a>
-        <br />
-        <em><sub align="center">Ini adalah project berdua dengan temanku yang role artis. konsepnya kami ingin membuat game tic tac toe namun kita modifikasi jadi seperti rouglike, game ini local multiplayer. jadi di game ini kamu bisa bermain melawan temanmu seperti game tic tac toe pada umumnya. di project ini aku pakek engine custom, aku pakai Graphic API OpenGL untuk renderingnya dan GLFW untuk input dan windownya, serta aku juga menerapkan beberapa design patttern dan ECS entity component system di project ini"</sub></em>
-        <br />
-        <p align="center">
-          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
-            <b>View Detail</b>
-          </a> 
-        </p>
-      </p>
-    </td>
   </tr>
 </table>
 
