@@ -41,22 +41,23 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
       </p>
     </td>
   </tr>
-  <td width="50%">
-      <h3 align="center">Duck</h3>
-       <p align="center">
-        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
-        </a>
-        <br />
-        <em><sub align="center">Ini adalah project individuku saat masuk kuliah, dari sini aku mulai belajar unreal engine, dan modeling. ini adalah game 3d platfomer. semua assetsnya di buat secara individu, namun untuk characternya di bantu oleh temanku."</sub></em>
-        <br />
-        <p align="center">
-          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
-            <b>View Detail</b>
-          </a> 
+  <tr>
+    <td width="50%">
+        <h3 align="center">Duck</h3>
+         <p align="center">
+          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+            <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+          </a>
+          <br />
+          <em><sub align="center">Ini adalah project individuku saat masuk kuliah, dari sini aku mulai belajar unreal engine, dan modeling. ini adalah game 3d platfomer. semua assetsnya di buat secara individu, namun untuk characternya di bantu oleh temanku."</sub></em>
+          <br />
+          <p align="center">
+            <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+              <b>View Detail</b>
+            </a> 
+          </p>
         </p>
-      </p>
-    </td>
+      </td>
   <td width="50%">
       <h3 align="center">Clean Out</h3>
        <p align="center">
@@ -73,6 +74,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         </p>
       </p>
     </td>
+  </tr>
   <td width="50%">
       <h3 align="center">Neo Strife</h3>
        <p align="center">
