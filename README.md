@@ -9,13 +9,13 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">Nama Game Pertamamu</h3>
+      <h3 align="center">Mafia</h3>
       <p align="center">
         <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU]" target="_blank">
           <img src="[LINK-KE-GIF-GAMEMU]" width="100%" alt="Project GIF"/>
         </a>
         <br />
-        <em><sub align="center">Deskripsi singkat game pertamamu di sini. Misal: "A fast-paced 2D platformer made with Unity."</sub></em>
+        <em><sub align="center">Project game pertamaku, thrid person shooter mobile. di buat di unity."</sub></em>
         <br />
         <p align="center">
           <a href="[LINK-REPO-GITHUB-PROYEK-INI]" target="_blank">
@@ -25,13 +25,109 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">Nama Game Keduamu</h3>
+      <h3 align="center">Indekos</h3>
        <p align="center">
         <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
           <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
         </a>
         <br />
-        <em><sub align="center">Deskripsi singkat game keduamu di sini. Misal: "A survival horror prototype built with Unreal Engine."</sub></em>
+        <em><sub align="center">Jadi ini adalah project magang dulu di roleplay studio, dan saat ini aku bekerja untuk melanjutkan game ini. jadi saat smk aku pernah magang di roleplay untuk mengerjakan project game 3d slice of life yang namanya indekos."</sub></em>
+        <br />
+        <p align="center">
+          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <b>View Detail</b>
+          </a> 
+        </p>
+      </p>
+    </td>
+  <td width="50%">
+      <h3 align="center">Duck</h3>
+       <p align="center">
+        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+        </a>
+        <br />
+        <em><sub align="center">Ini adalah project individuku saat masuk kuliah, dari sini aku mulai belajar unreal engine, dan modeling. ini adalah game 3d platfomer. semua assetsnya di buat secara individu, namun untuk characternya di bantu oleh temanku."</sub></em>
+        <br />
+        <p align="center">
+          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <b>View Detail</b>
+          </a> 
+        </p>
+      </p>
+    </td>
+  <td width="50%">
+      <h3 align="center">Clean Out</h3>
+       <p align="center">
+        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+        </a>
+        <br />
+        <em><sub align="center">Ini adalah project WPG, WPG adalah matkul workshop produksi game yang ada di pens, aku mengerjakan game ini secara berkelompok."</sub></em>
+        <br />
+        <p align="center">
+          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <b>View Detail</b>
+          </a> 
+        </p>
+      </p>
+    </td>
+  <td width="50%">
+      <h3 align="center">Neo Strife</h3>
+       <p align="center">
+        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+        </a>
+        <br />
+        <em><sub align="center">Ini adalah project individuku, jadi game ini adalah game 3d fast space fps, namun menggunakan art pixel. game ini di buat di unreal yang menggunakan c++ only, aku sama sekali tidak membuat blueprint di project ini."</sub></em>
+        <br />
+        <p align="center">
+          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <b>View Detail</b>
+          </a> 
+        </p>
+      </p>
+    </td>
+  <td width="50%">
+      <h3 align="center">Dgreek Cook</h3>
+       <p align="center">
+        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+        </a>
+        <br />
+        <em><sub align="center">Ini adalah project pertama team AEGIS. jadi project ini pertama kali di buat untuk gamejamplus dan kabar baiknya kami lolos ke brazil saat itu sebagai finalis, namun sayangnya kami gagal menjuarainya. untuk versi pertama kami menggunakan engine unreal, dan untuk saat ini project ini di rebuild di unity engine."</sub></em>
+        <br />
+        <p align="center">
+          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <b>View Detail</b>
+          </a> 
+        </p>
+      </p>
+    </td>
+  <td width="50%">
+      <h3 align="center">Carnival</h3>
+       <p align="center">
+        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+        </a>
+        <br />
+        <em><sub align="center">Ini adalah project game ke dua AEGIS. game ini di buat untuk mengikuti gameseed, dan ada kabar sedikit baik, kami ada di urutan top 20, dan kabar buruknya seperti biasa kami gagal menjuarainya. game ini di buat di unity engine."</sub></em>
+        <br />
+        <p align="center">
+          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <b>View Detail</b>
+          </a> 
+        </p>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">Triple Shift</h3>
+       <p align="center">
+        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
+          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+        </a>
+        <br />
+        <em><sub align="center">Ini adalah project berdua dengan temanku yang role artis. konsepnya kami ingin membuat game tic tac toe namun kita modifikasi jadi seperti rouglike, game ini local multiplayer. jadi di game ini kamu bisa bermain melawan temanmu seperti game tic tac toe pada umumnya. di project ini aku pakek engine custom, aku pakai Graphic API OpenGL untuk renderingnya dan GLFW untuk input dan windownya, serta aku juga menerapkan beberapa design patttern dan ECS entity component system di project ini"</sub></em>
         <br />
         <p align="center">
           <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
