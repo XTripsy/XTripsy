@@ -9,7 +9,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">Mafia</h3>
+      <h3 align="center">Criminal</h3>
       <p align="center">
         <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU]" target="_blank">
           <img src="[LINK-KE-GIF-GAMEMU]" width="100%" alt="Project GIF"/>
@@ -58,22 +58,6 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           </p>
         </p>
       </td>
-  <td width="50%">
-      <h3 align="center">Clean Out</h3>
-       <p align="center">
-        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
-        </a>
-        <br />
-        <em><sub align="center">Ini adalah project WPG, WPG adalah matkul workshop produksi game yang ada di pens, aku mengerjakan game ini secara berkelompok."</sub></em>
-        <br />
-        <p align="center">
-          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
-            <b>View Detail</b>
-          </a> 
-        </p>
-      </p>
-    </td>
   </tr>
   <tr>
     <td width="50%">
