@@ -40,6 +40,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         </p>
       </p>
     </td>
+  </tr>
   <td width="50%">
       <h3 align="center">Duck</h3>
        <p align="center">
