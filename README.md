@@ -34,7 +34,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         <em><sub align="center">deskripsi.</sub></em>
         <br />
         <p align="center">
-          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+          <a href="games/indekos/Indekos.md" target="_blank">
             <b>View Detail</b>
           </a> 
         </p>
@@ -52,7 +52,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <em><sub align="center">deskripsi.</sub></em>
           <br />
           <p align="center">
-            <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <a href="games/duck/Duck.md" target="_blank">
               <b>View Detail</b>
             </a> 
           </p>
@@ -68,7 +68,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         <em><sub align="center">deskripsi.</sub></em>
         <br />
         <p align="center">
-          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+          <a href="games/triple-shift/TripleShift.md" target="_blank">
             <b>View Detail</b>
           </a> 
         </p>
@@ -86,7 +86,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <em><sub align="center">deskripsi.</sub></em>
           <br />
           <p align="center">
-            <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <a href="games/neo-strife/NeoStrife.md" target="_blank">
               <b>View Detail</b>
             </a> 
           </p>
@@ -102,7 +102,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         <em><sub align="center">deskripsi.</sub></em>
         <br />
         <p align="center">
-          <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+          <a href="games/dgreek-cook/DGreekCook.md" target="_blank">
             <b>View Detail</b>
           </a> 
         </p>
@@ -120,7 +120,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <em><sub align="center">deskripsi.</sub></em>
           <br />
           <p align="center">
-            <a href="[LINK-REPO-GITHUB-PROYEK-INI-2]" target="_blank">
+            <a href="games/carnifall/Carnifall.md" target="_blank">
               <b>View Detail</b>
             </a> 
           </p>
