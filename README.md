@@ -18,7 +18,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         <em><sub align="center">deskripsi.</sub></em>
         <br />
         <p align="center">
-          <a href="[LINK-REPO-GITHUB-PROYEK-INI]" target="_blank">
+          <a href="games/criminal/Criminal.md" target="_blank">
             <b>View Detail</b>
           </a> 
         </p>
