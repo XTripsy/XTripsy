@@ -31,7 +31,7 @@ I'm a Game Programmer whose expertise spans the full spectrum of development, fr
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Component Based Model
         </div>
         <br />
-      <em>My first solo project: a 3D Third-Person Shooter (TPS) built for mobile. This project served as an introduction to core game logic, mobile control implementation, and fundamental enemy AI.</em>
+      <em>A self-taught 3D Third-Person Shooter for mobile, built as my foundational project during vocational high school (SMK). This was my first practical implementation of core concepts, including game engine structure, gameplay logic, mobile touch controls, and basic enemy AI.</em>
         <p align="center">
           <a href="games/criminal/Criminal.md" target="_blank">
             <b>View Detail</b>
