@@ -15,8 +15,23 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <img src="games/criminal/criminal-gif.gif" width="100%"/>
         </a>
         <br />
-        <em><sub align="center">deskripsi.</sub></em>
+        <br><br> <div align="left" style="width: 90%; margin: 0 auto; padding-left: 10px;">
+          <strong>Role:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Solo Developer
+          <br>
+          <strong>Context:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Personal Project
+          <br>
+          <strong>Platform:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mobile
+          <br>
+          <strong>Engine:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black" alt="Unity" height="25" />
+          <br>
+          <strong>Language:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" height="25" />
+          <br>
+          <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Component Based Model
+        </div>
         <br />
+      <em>Project game pertamaku, third person shooter mobile.</em>
         <p align="center">
           <a href="games/criminal/Criminal.md" target="_blank">
             <b>View Detail</b>
@@ -30,9 +45,23 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         <a>
           <img src="games/indekos/indekos-gif.gif" width="100%"/>
         </a>
+        <br><br> <div align="left" style="width: 90%; margin: 0 auto; padding-left: 10px;">
+          <strong>Role:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lead] Gameplay Systems Developer
+          <br>
+          <strong>Context:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Professional Work <a href="https://www.instagram.com/roleplaystudio" target="_blank">@RoleplayStudio</a>
+          <br>
+          <strong>Platform:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PC [Windows]
+          <br>
+          <strong>Engine:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black" alt="Unity" height="25" />
+          <br>
+          <strong>Language:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" height="25" />
+          <br>
+          <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Design Pattern[Singleton, State]
+        </div>
         <br />
-        <em><sub align="center">deskripsi.</sub></em>
-        <br />
+      <em>Roleplay.</em>
         <p align="center">
           <a href="games/indekos/Indekos.md" target="_blank">
             <b>View Detail</b>
@@ -48,9 +77,23 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <a>
             <img src="games/duck/duck-gif.gif" width="100%"/>
           </a>
-          <br />
-          <em><sub align="center">deskripsi.</sub></em>
-          <br />
+          <br><br> <div align="left" style="width: 90%; margin: 0 auto; padding-left: 10px;">
+          <strong>Role:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Solo Developer
+          <br>
+          <strong>Context:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Personal Project
+          <br>
+          <strong>Platform:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PC [Windows}
+          <br>
+          <strong>Engine:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine" height="25" />
+          <br>
+          <strong>Language:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/Blueprint-0D7BFF?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine Blueprint" height="25" />
+          <br>
+          <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unreal Gameplay Framework
+        </div>
+        <br />
+      <em>Project game unreal.</em>
           <p align="center">
             <a href="games/duck/Duck.md" target="_blank">
               <b>View Detail</b>
@@ -64,9 +107,23 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         <a>
           <img src="games/triple-shift/tripleshift-gif.gif" width="100%"/>
         </a>
+        <br><br> <div align="left" style="width: 90%; margin: 0 auto; padding-left: 10px;">
+          <strong>Role:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Engine Programmer
+          <br>
+          <strong>Context:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2-Person Team Project
+          <br>
+          <strong>Platform:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PC [Windows}
+          <br>
+          <strong>Engine:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Custom Engine [OpenGL | GLM | GLFW | ImGUI]<img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" alt="OpenGL" height="25" /><img src="https://img.shields.io/badge/GLM-00599C?style=for-the-badge" alt="GLM" height="25" /><img src="https://img.shields.io/badge/GLFW-FFFFFF?style=for-the-badge&logo=glfw&logoColor=black" alt="GLFW" height="25" /><img src="https://img.shields.io/badge/ImGui-F06900?style=for-the-badge" alt="ImGui" height="25" />
+          <br>
+          <strong>Language:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" height="25" /><img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON" height="25" />
+          <br>
+          <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ECS | Design Pattern [Singleton, State, Factory]
+        </div>
         <br />
-        <em><sub align="center">deskripsi.</sub></em>
-        <br />
+      <em>Project custom engine.</em>
         <p align="center">
           <a href="games/triple-shift/TripleShift.md" target="_blank">
             <b>View Detail</b>
@@ -82,9 +139,23 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <a>
             <img src="games/neo-strife/neostrife-gif.gif" width="100%"/>
           </a>
-          <br />
-          <em><sub align="center">deskripsi.</sub></em>
-          <br />
+          <br><br> <div align="left" style="width: 90%; margin: 0 auto; padding-left: 10px;">
+          <strong>Role:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Solo Developer
+          <br>
+          <strong>Context:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Personal Project
+          <br>
+          <strong>Platform:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PC [Windows}
+          <br>
+          <strong>Engine:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine" height="25" />
+          <br>
+          <strong>Language:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" height="25" />
+          <br>
+          <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unreal Gameplay Framework
+        </div>
+        <br />
+      <em>Project game unreal.</em>
           <p align="center">
             <a href="games/neo-strife/NeoStrife.md" target="_blank">
               <b>View Detail</b>
@@ -98,9 +169,23 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
         <a>
           <img src="games/dgreek-cook/dgreekcook-gif.gif" width="100%"/>
         </a>
+        <br><br> <div align="left" style="width: 90%; margin: 0 auto; padding-left: 10px;">
+          <strong>Role:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gameplay Systems Developer
+          <br>
+          <strong>Context:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indie Team <a href="https://www.instagram.com/aegis_studioo" target="_blank">@AegisStudio</a>
+          <br>
+          <strong>Platform:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PC [Windows]
+          <br>
+          <strong>Engine:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black" alt="Unity" height="25" />
+          <br>
+          <strong>Language:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" height="25" />
+          <br>
+          <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Design Pattern[Singleton, State]
+        </div>
         <br />
-        <em><sub align="center">deskripsi.</sub></em>
-        <br />
+      <em>Aegis</em>
         <p align="center">
           <a href="games/dgreek-cook/DGreekCook.md" target="_blank">
             <b>View Detail</b>
@@ -116,9 +201,23 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <a>
             <img src="games/carnifall/carnifall-gif.gif" width="100%"/>
           </a>
-          <br />
-          <em><sub align="center">deskripsi.</sub></em>
-          <br />
+          <br><br> <div align="left" style="width: 90%; margin: 0 auto; padding-left: 10px;">
+          <strong>Role:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gameplay Systems Developer
+          <br>
+          <strong>Context:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indie Team <a href="https://www.instagram.com/aegis_studioo" target="_blank">@AegisStudio</a>
+          <br>
+          <strong>Platform:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PC [Windows]
+          <br>
+          <strong>Engine:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black" alt="Unity" height="25" />
+          <br>
+          <strong>Language:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" height="25" />
+          <br>
+          <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Design Pattern[Singleton, State]
+        </div>
+        <br />
+      <em>Aegis</em>
           <p align="center">
             <a href="games/carnifall/Carnifall.md" target="_blank">
               <b>View Detail</b>
