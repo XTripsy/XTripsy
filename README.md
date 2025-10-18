@@ -1,6 +1,6 @@
 ### Hi there, I'm Aditya 👋
 
-I'm a Game Programmer whose expertise spans the full spectrum of development, from high-level engines to low-level C++." I have proven experience architecting scalable systems in Unity, implementing C++-only gameplay in Unreal, and building custom engines from scratch with OpenGL and ECS. My passion is solving complex architectural problems with clean, optimized code.
+I'm a Game Programmer whose expertise spans the full spectrum of development, from high-level engines to low-level C++. I have proven experience architecting scalable systems in Unity, implementing C++ only gameplay in Unreal, and building custom engines from scratch with OpenGL and ECS. My passion is solving complex architectural problems with clean, optimized code.
 
 ---
 
@@ -31,7 +31,7 @@ I'm a Game Programmer whose expertise spans the full spectrum of development, fr
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Component Based Model
         </div>
         <br />
-      <em>A self-taught 3D Third-Person Shooter for mobile, built as my foundational project during vocational high school (SMK). This was my first practical implementation of core concepts, including game engine structure, gameplay logic, mobile touch controls, and basic enemy AI.</em>
+      <em>A self taught 3D Third-Person Shooter for mobile, built as my foundational project during vocational high school (SMK). This was my first practical implementation of core concepts, including game engine structure, gameplay logic, mobile touch controls, and basic enemy AI.</em>
         <p align="center">
           <a href="games/criminal/Criminal.md" target="_blank">
             <b>View Detail</b>
@@ -124,7 +124,7 @@ I'm a Game Programmer whose expertise spans the full spectrum of development, fr
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ECS | Design Pattern [Singleton, State, Factory]
         </div>
         <br />
-      <em>This 2-person project was a deep dive into high-performance C++ and architecture. As the sole programmer, I designed and implemented a custom engine from scratch, built entirely around an Entity Component System (ECS) to move beyond OOP and achieve high performance. This involved writing the entire graphics pipeline (Shaders, VAO/VBO/EBO) using OpenGL, handling window/input with GLFW, and using ImGui for UI. All game logic, including collision math (using GLM) and data-driven levels (from JSON), runs within this custom ECS framework.</em>
+      <em>This two-person project was a deep dive into high-performance C++ and architecture. As the sole programmer, I designed and implemented a custom engine from scratch, built entirely around an Entity Component System (ECS) to move beyond OOP and achieve high performance. This involved writing the entire graphics pipeline (Shaders, VAO/VBO/EBO) using OpenGL, handling window/input with GLFW, and using ImGui for UI. All game logic, including collision math (using GLM) and data-driven levels (from JSON), runs within this custom ECS framework.</em>
         <p align="center">
           <a href="games/triple-shift/TripleShift.md" target="_blank">
             <b>View Detail</b>
@@ -156,7 +156,7 @@ I'm a Game Programmer whose expertise spans the full spectrum of development, fr
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unreal Gameplay Framework
         </div>
         <br />
-      <em>A fast-paced FPS built as a C++-only challenge in Unreal Engine. The objective was to implement all gameplay logic without Blueprints, forcing a deep dive into the Unreal Gameplay Framework (GameMode, PlayerController, etc.). All 2D pixel assets were also created independently for this project.</em>
+      <em>A fast-paced FPS built as a C++ only challenge in Unreal Engine. The objective was to implement all gameplay logic without Blueprints, forcing a deep dive into the Unreal Gameplay Framework (GameMode, PlayerController, etc.). All 2D pixel assets were also created independently for this project.</em>
           <p align="center">
             <a href="games/neo-strife/NeoStrife.md" target="_blank">
               <b>View Detail</b>
@@ -247,7 +247,7 @@ I'm a Game Programmer whose expertise spans the full spectrum of development, fr
 
 <p align="center">
   <a href="https://www.instagram.com/ya.aditt_/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" href="https://www.instagram.com/ya.aditt_/"/>
   </a>
   <a href="https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
