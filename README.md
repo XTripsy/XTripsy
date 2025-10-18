@@ -11,8 +11,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
     <td width="50%">
       <h3 align="center">Criminal</h3>
       <p align="center">
-        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU]" target="_blank">
-          <img src="games/criminal/criminal-gif.gif" width="100%" alt="Project GIF"/>
+        <a>
+          <img src="games/criminal/criminal-gif.gif" width="100%"/>
         </a>
         <br />
         <em><sub align="center">deskripsi.</sub></em>
@@ -27,8 +27,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
     <td width="50%">
       <h3 align="center">Indekos</h3>
        <p align="center">
-        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-          <img src="games/indekos/indekos-gif.gif" width="100%" alt="Project 2 GIF"/>
+        <a>
+          <img src="games/indekos/indekos-gif.gif" width="100%"/>
         </a>
         <br />
         <em><sub align="center">deskripsi.</sub></em>
@@ -45,8 +45,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
     <td width="50%">
         <h3 align="center">Duck</h3>
          <p align="center">
-          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-            <img src="games/duck/duck-gif.gif" width="100%" alt="Project 2 GIF"/>
+          <a>
+            <img src="games/duck/duck-gif.gif" width="100%"/>
           </a>
           <br />
           <em><sub align="center">deskripsi.</sub></em>
@@ -61,8 +61,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
   <td width="50%">
       <h3 align="center">Triple Shift</h3>
        <p align="center">
-        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-          <img src="games/triple-shift/tripleshift-gif.gif" width="100%" alt="Project 2 GIF"/>
+        <a>
+          <img src="games/triple-shift/tripleshift-gif.gif" width="100%"/>
         </a>
         <br />
         <em><sub align="center">deskripsi.</sub></em>
@@ -79,8 +79,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
     <td width="50%">
         <h3 align="center">Neo Strife</h3>
          <p align="center">
-          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-            <img src="games/neo-strife/neostrife-gif.gif" width="100%" alt="Project 2 GIF"/>
+          <a>
+            <img src="games/neo-strife/neostrife-gif.gif" width="100%"/>
           </a>
           <br />
           <em><sub align="center">deskripsi.</sub></em>
@@ -95,8 +95,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
   <td width="50%">
       <h3 align="center">Dgreek Cook</h3>
        <p align="center">
-        <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-          <img src="games/dgreek-cook/dgreekcook-gif.gif" width="100%" alt="Project 2 GIF"/>
+        <a>
+          <img src="games/dgreek-cook/dgreekcook-gif.gif" width="100%"/>
         </a>
         <br />
         <em><sub align="center">deskripsi.</sub></em>
@@ -113,8 +113,8 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
     <td width="50%">
         <h3 align="center">Carnival</h3>
          <p align="center">
-          <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-            <img src="games/carnifall/carnifall-gif.gif" width="100%" alt="Project 2 GIF"/>
+          <a>
+            <img src="games/carnifall/carnifall-gif.gif" width="100%"/>
           </a>
           <br />
           <em><sub align="center">deskripsi.</sub></em>
