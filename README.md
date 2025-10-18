@@ -1,6 +1,6 @@
 ### Hi there, I'm Aditya 👋
 
-I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optimized code, designing scalable gameplay systems, and exploring robust game architecture patterns. Currently, I'm diving deep into low-level game development.
+I'm a Game Programmer whose expertise spans the full spectrum of development, from high-level engines to low-level C++." I have proven experience architecting scalable systems in Unity, implementing C++-only gameplay in Unreal, and building custom engines from scratch with OpenGL and ECS. My passion is solving complex architectural problems with clean, optimized code.
 
 ---
 
