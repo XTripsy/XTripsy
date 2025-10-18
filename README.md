@@ -28,7 +28,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
       <h3 align="center">Indekos</h3>
        <p align="center">
         <a href="[LINK-KE-ITCHIO-ATAU-VIDEOMU-2]" target="_blank">
-          <img src="[LINK-KE-GIF-GAMEMU-2]" width="100%" alt="Project 2 GIF"/>
+          <img src="games/indekos/indekos-gif.gif" width="100%" alt="Project 2 GIF"/>
         </a>
         <br />
         <em><sub align="center">Jadi ini adalah project magang dulu di roleplay studio, dan saat ini aku bekerja untuk melanjutkan game ini. jadi saat smk aku pernah magang di roleplay untuk mengerjakan project game 3d slice of life yang namanya indekos."</sub></em>
