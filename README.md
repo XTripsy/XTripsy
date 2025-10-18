@@ -31,7 +31,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Component Based Model
         </div>
         <br />
-      <em>Project game pertamaku, third person shooter mobile.</em>
+      <em>My first solo project: a 3D Third-Person Shooter (TPS) built for mobile. This project served as an introduction to core game logic, mobile control implementation, and fundamental enemy AI.</em>
         <p align="center">
           <a href="games/criminal/Criminal.md" target="_blank">
             <b>View Detail</b>
@@ -61,7 +61,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Design Pattern[Singleton, State]
         </div>
         <br />
-      <em>Roleplay.</em>
+      <em>Returning to the project I first built as an intern, I was hired back as Lead Programmer to spearhead a critical technical rebuild. The previous 'scene-per-quest' structure had caused severe performance issues. I re-architected the entire game to use a 'scene-per-location' model, building a dynamic quest system that spawns prefabs (triggers, characters) via script. This involved designing a custom Singleton/State framework (with a unified state for this single-player game) and seamlessly integrating it with the existing Adventure Creator plugin.</em>
         <p align="center">
           <a href="games/indekos/Indekos.md" target="_blank">
             <b>View Detail</b>
@@ -93,7 +93,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unreal Gameplay Framework
         </div>
         <br />
-      <em>Project game unreal.</em>
+      <em>My first solo journey into Unreal Engine: a 3D platformer. This project was a comprehensive challenge, from learning 3D modeling for its assets to implementing enemy AI with Behavior Tree.</em>
           <p align="center">
             <a href="games/duck/Duck.md" target="_blank">
               <b>View Detail</b>
@@ -124,7 +124,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ECS | Design Pattern [Singleton, State, Factory]
         </div>
         <br />
-      <em>Project custom engine.</em>
+      <em>This 2-person project was a deep dive into high-performance C++ and architecture. As the sole programmer, I designed and implemented a custom engine from scratch, built entirely around an Entity Component System (ECS) to move beyond OOP and achieve high performance. This involved writing the entire graphics pipeline (Shaders, VAO/VBO/EBO) using OpenGL, handling window/input with GLFW, and using ImGui for UI. All game logic, including collision math (using GLM) and data-driven levels (from JSON), runs within this custom ECS framework.</em>
         <p align="center">
           <a href="games/triple-shift/TripleShift.md" target="_blank">
             <b>View Detail</b>
@@ -156,7 +156,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unreal Gameplay Framework
         </div>
         <br />
-      <em>Project game unreal.</em>
+      <em>A fast-paced FPS built as a C++-only challenge in Unreal Engine. The objective was to implement all gameplay logic without Blueprints, forcing a deep dive into the Unreal Gameplay Framework (GameMode, PlayerController, etc.). All 2D pixel assets were also created independently for this project.</em>
           <p align="center">
             <a href="games/neo-strife/NeoStrife.md" target="_blank">
               <b>View Detail</b>
@@ -186,7 +186,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Design Pattern[Singleton, State]
         </div>
         <br />
-      <em>Aegis</em>
+      <em>Originally a successful Unreal Engine game jam entry, this team project is now being rebuilt in Unity to optimize performance. My primary role is architecting this new version, building a custom, modular framework from the ground up. This includes implementing core systems (Singleton, State Pattern) and a scalable Player State manager designed to handle the game's local co-op features.</em>
         <p align="center">
           <a href="games/dgreek-cook/DGreekCook.md" target="_blank">
             <b>View Detail</b>
@@ -197,7 +197,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
   </tr>
   <tr>
     <td width="50%">
-        <h3 align="center">Carnival</h3>
+        <h3 align="center">Carnivall</h3>
          <p align="center">
           <a>
             <img src="games/carnifall/carnifall-gif.gif" width="100%"/>
@@ -218,7 +218,7 @@ I'm a Game Programmer from Indonesia. I'm passionate about writing clean & optim
           <strong>Architecture:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Design Pattern[Singleton, State]
         </div>
         <br />
-      <em>Aegis</em>
+      <em>On Team Aegis's third project, my role involved architecting the core systems and implementing player gameplay. A key design decision for this single-player game was to create a unified State Manager, combining GameState and PlayerState. This pragmatic approach simplified the architecture while still leveraging the power of the State and Singleton patterns.</em>
           <p align="center">
             <a href="games/carnifall/Carnifall.md" target="_blank">
               <b>View Detail</b>
