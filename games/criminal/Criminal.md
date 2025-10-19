@@ -9,7 +9,7 @@
 
 ## 📺 Full Gameplay Video
 
-**[➡️ Watch Full Gameplay Video on YouTube](https://GANTI_INI_DENGAN_LINK_YOUTUBE_KAMU)**
+**[➡️ Watch Full Gameplay Video on YouTube](https://youtu.be/46mcKmDhZOo)**
 
 <br>
 
