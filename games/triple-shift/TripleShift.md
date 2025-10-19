@@ -27,9 +27,6 @@
 │   glad.c
 │   imgui.ini
 │   main.cpp
-│   TripleShift.vcxproj
-│   TripleShift.vcxproj.filters
-│   TripleShift.vcxproj.user
 │
 ├───assets
 │   ├───board
