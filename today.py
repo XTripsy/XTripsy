@@ -4,8 +4,7 @@ import requests
 import os
 from lxml import etree
 
-# GANTI TANGGAL LAHIR DI BAWAH INI (Format: Tahun, Bulan, Tanggal)
-BIRTHDAY = datetime.date(2004, 5, 15)
+BIRTHDAY = datetime.date(2004, 8, 1)
 
 HEADERS = {'Authorization': 'token ' + os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ.get('USER_NAME', 'XTripsy')
