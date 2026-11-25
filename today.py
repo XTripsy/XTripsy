@@ -26,7 +26,10 @@ def simple_request(query, variables):
         headers=HEADERS
     )
     if request.status_code == 200:
-        return request.json()
+        data = request.json()
+        if 'errors' in data:
+            raise Exception(f"GraphQL errors: {data['errors']}")
+        return data
     raise Exception(f"Query failed with status {request.status_code}: {request.text}")
 
 
@@ -118,18 +121,18 @@ def commit_counter(username):
     return total_commits
 
 
-def loc_query(username, user_id):
+def loc_query(username):
     query = '''
     query ($login: String!, $cursor: String) {
         user(login: $login) {
-            repositories(first: 50, after: $cursor, ownerAffiliations: OWNER, isFork: false) {
+            repositories(first: 10, after: $cursor, ownerAffiliations: OWNER, isFork: false) {
                 edges {
                     node {
                         name
                         defaultBranchRef {
                             target {
                                 ... on Commit {
-                                    history(first: 100, author: {id: "%s"}) {
+                                    history(first: 100) {
                                         edges {
                                             node {
                                                 additions
@@ -148,25 +151,22 @@ def loc_query(username, user_id):
                 }
             }
         }
-    }''' % user_id
+    }'''
 
     additions = 0
     deletions = 0
     cursor = None
-    try:
-        while True:
-            data = simple_request(query, {'login': username, 'cursor': cursor})['data']['user']['repositories']
-            for edge in data['edges']:
-                branch = edge['node'].get('defaultBranchRef')
-                if branch and branch.get('target') and branch['target'].get('history'):
-                    for commit in branch['target']['history']['edges']:
-                        additions += commit['node']['additions']
-                        deletions += commit['node']['deletions']
-            if not data['pageInfo']['hasNextPage']:
-                break
-            cursor = data['pageInfo']['endCursor']
-    except Exception as e:
-        print(f"Warning LOC fetch: {e}")
+    while True:
+        data = simple_request(query, {'login': username, 'cursor': cursor})['data']['user']['repositories']
+        for edge in data['edges']:
+            branch = edge['node'].get('defaultBranchRef')
+            if branch and branch.get('target') and branch['target'].get('history'):
+                for commit in branch['target']['history']['edges']:
+                    additions += commit['node']['additions']
+                    deletions += commit['node']['deletions']
+        if not data['pageInfo']['hasNextPage']:
+            break
+        cursor = data['pageInfo']['endCursor']
 
     return additions, deletions, additions - deletions
 
@@ -189,7 +189,7 @@ def svg_overwrite(filename, uptime, repos, contributed, stars, commits, follower
     root = tree.getroot()
 
     justify_format(root, 'uptime_dots', 'uptime', uptime, 51)
-    justify_format(root, 'repo_dots', 'repo_data', f"{repos:,} {{Contributed: {contributed:,}}}", 26)
+    justify_format(root, 'repo_dots', 'repo_data', f"{repos:,} {{Contributed: {contributed:,}}}", 27)
     justify_format(root, 'star_dots', 'star_data', f"{stars:,}", 17)
     justify_format(root, 'commit_dots', 'commit_data', f"{commits:,}", 22)
     justify_format(root, 'follower_dots', 'follower_data', f"{followers:,}", 15)
@@ -212,7 +212,7 @@ if __name__ == '__main__':
     user_id, _, followers, contributed = user_getter(USER_NAME)
     repos, stars = graph_repos_stars(USER_NAME)
     commits = commit_counter(USER_NAME)
-    loc = loc_query(USER_NAME, user_id)
+    loc = loc_query(USER_NAME)
     uptime = daily_readme(BIRTHDAY)
 
     for svg_file in ['dark_mode.svg', 'light_mode.svg']:
