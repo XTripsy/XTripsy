@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="&#39;Consolas&#39;, &#39;Courier New&#39;, monospace" width="900px" height="530px" font-size="13px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="&#39;Consolas&#39;, &#39;Courier New&#39;, monospace" width="900px" height="515px" font-size="13px">
   <style>
     .bg { fill: #161b22; stroke: #30363d; stroke-width: 1.5px; }
     .c-bg { fill: #484f58; }
@@ -15,10 +15,10 @@
     text, tspan { white-space: pre; }
   </style>
 
-  <rect x="2" y="2" width="896" height="526" rx="10" class="bg" />
+  <rect x="2" y="2" width="896" height="511" rx="10" class="bg" />
 
   
-  <text x="28" y="65" font-size="12px">
+  <text x="28" y="60" font-size="12px">
     <tspan x="28" dy="0"><tspan class="c-bg">.....................................,....</tspan></tspan>
     <tspan x="28" dy="18"><tspan class="c-bg">.........................,,,,,,,,,,,,,,,,,</tspan></tspan>
     <tspan x="28" dy="18"><tspan class="c-bg">..............,,,,,,,,,,,</tspan><tspan class="c-mid">**********</tspan><tspan class="c-bg">,,</tspan><tspan class="c-mid">*</tspan><tspan class="c-bg">,,,,</tspan></tspan>
@@ -47,23 +47,22 @@
   
   <text x="410" y="42">
     <tspan x="410" dy="0"><tspan class="header">xtripsy@github</tspan> <tspan class="dots">-------------------------------------------</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">OS:</tspan><tspan class="dots"> .................................... </tspan><tspan class="val">Windows 11, Linux</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Uptime:</tspan><tspan class="dots" id="uptime_dots"> .................... </tspan><tspan class="val" id="uptime">20 years, 0 months, 0 days</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Host:</tspan><tspan class="dots"> ............................... </tspan><tspan class="val">Personal Workstation</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Kernel:</tspan><tspan class="dots"> ............................... </tspan><tspan class="val">Software Developer</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">IDE:</tspan><tspan class="dots"> ............................... </tspan><tspan class="val">VSCode, IntelliJ IDEA</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">OS:</tspan><tspan class="dots"> ........................................... </tspan><tspan class="val">Windows 11</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Uptime:</tspan><tspan class="dots" id="uptime_dots"> ...................... </tspan><tspan class="val" id="uptime">22 years, 3 months, 25 days</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Host:</tspan><tspan class="dots"> ................................... </tspan><tspan class="val">Game Development</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Kernel:</tspan><tspan class="dots"> ................................ </tspan><tspan class="val">Engine Programmer</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">IDE:</tspan><tspan class="dots"> ....................... </tspan><tspan class="val">Rider, Visual Studio, VS Code</tspan></tspan>
 
-    <tspan x="410" dy="32"><tspan class="key">Languages.Programming:</tspan><tspan class="dots"> ..... </tspan><tspan class="val">Python, JavaScript, Java, C++</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Languages.Computer:</tspan><tspan class="dots"> .......... </tspan><tspan class="val">HTML, CSS, JSON, YAML, SQL</tspan></tspan>
+    <tspan x="410" dy="32"><tspan class="key">Languages.Programming:</tspan><tspan class="dots"> ........................... </tspan><tspan class="val">C++, C#</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Languages.Computer:</tspan><tspan class="dots"> ................................. </tspan><tspan class="val">JSON</tspan></tspan>
     <tspan x="410" dy="19"><tspan class="key">Languages.Real:</tspan><tspan class="dots"> ...................... </tspan><tspan class="val">Indonesian, English</tspan></tspan>
 
-    <tspan x="410" dy="32"><tspan class="key">Hobbies.Software:</tspan><tspan class="dots"> ......... </tspan><tspan class="val">Web Dev, Open Source, Scripting</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Hobbies.Hardware:</tspan><tspan class="dots"> ............... </tspan><tspan class="val">PC Building, Mechanical KB</tspan></tspan>
+    <tspan x="410" dy="32"><tspan class="key">Hobbies.Software:</tspan><tspan class="dots"> .............. </tspan><tspan class="val">Game Dev, Plugin Game Dev</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Hobbies:</tspan><tspan class="dots"> ............................ </tspan><tspan class="val">Football, Play Games</tspan></tspan>
 
     <tspan x="410" dy="32"><tspan class="header">- Contact</tspan> <tspan class="dots">------------------------------------------------</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Email.Personal:</tspan><tspan class="dots"> ...................... </tspan><tspan class="val">xtripsy@example.com</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">LinkedIn:</tspan><tspan class="dots"> ........................................ </tspan><tspan class="val">XTripsy</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Discord:</tspan><tspan class="dots"> ......................................... </tspan><tspan class="val">xtripsy</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Email.Personal:</tspan><tspan class="dots"> .............. </tspan><tspan class="val">epoch.aditya.flux@gmail.com</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Discord:</tspan><tspan class="dots"> ......................................... </tspan><tspan class="val">itsadit</tspan></tspan>
 
     <tspan x="410" dy="32"><tspan class="header">- GitHub Stats</tspan> <tspan class="dots">-------------------------------------------</tspan></tspan>
     <tspan x="410" dy="19"><tspan class="key">Repos:</tspan><tspan class="dots" id="repo_dots"> .... </tspan><tspan class="val" id="repo_data">0 {Contributed: 0}</tspan> <tspan class="dots">|</tspan> <tspan class="key">Stars:</tspan><tspan class="dots" id="star_dots"> ............. </tspan><tspan class="val" id="star_data">0</tspan></tspan>
