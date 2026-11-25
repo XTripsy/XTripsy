@@ -5,12 +5,10 @@
   </picture>
 </div>
 
-<br>
-
-### `$ ls -la ~/games/`
-
-| Permissions | Engine | Project / Title | Role & Technical Highlights | Log |
-| :--- | :--- | :--- | :--- | :--- |
-| `drwxr-xr-x` | `Unreal C++` | **[Judul Game 1](games/game-1.md)** | Engine Programmer — Custom physics & AI behavior tree | [cat →](games/game-1.md) |
-| `drwxr-xr-x` | `Unity C#` | **[Judul Game 2](games/game-2.md)** | Tools Programmer — Custom editor plugin & object pooling | [cat →](games/game-2.md) |
-| `-r--------` | `Godot 4` | **[Proyek Magang / Freelance](games/proyek-nda.md)** | Gameplay & Optimization — Reduced frame time by 35% *(NDA)* | [cat →](games/proyek-nda.md) |
+<pre>
+<b>xtripsy@github</b>:<b>~/games</b>$ tree -L 1 --noreport
+.
+├── <a href="games/game-1.md"><b>Judul-Game-1/</b></a>          [Unreal C++]  Engine Programmer — Custom physics &amp; AI
+├── <a href="games/game-2.md"><b>Judul-Game-2/</b></a>          [Unity C#]    Tools Programmer — Editor plugin &amp; pooling
+└── <a href="games/proyek-nda.md"><b>Proyek-Magang-NDA/</b></a>     [Godot 4]     Gameplay &amp; Optimization — Frame time -35%
+</pre>
