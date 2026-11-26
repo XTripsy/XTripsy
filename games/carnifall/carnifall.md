@@ -5,7 +5,7 @@
 ```yaml
 Project          : Carnifall
 Status           : Prototype
-Context          : Team Project
+Context          : Indie Team (@AegisStudio)
 Platform         : PC (Windows)
 Engine           : Unity
 Language         : C#
