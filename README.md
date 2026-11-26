@@ -12,6 +12,7 @@
 │   ├── <a href="games/triple-shift/tripleshift.md"><b>Triple-Shift/</b></a>     [OpenGL C++]  Engine Programmer   — Custom 2D ECS engine &amp; JSON levels
 │   ├── <a href="games/fish-and-fish/fishandfish.md"><b>Fish-and-Fish/</b></a>    [OpenGL C++]  Engine &amp; Core Loop  — Custom OpenGL loop, ECS &amp; API-ready state
 │   ├── <a href="games/neo-strife/neostrife.md"><b>Neo-Strife/</b></a>       [Unreal C++]  Solo Developer      — 100% pure C++ FPS &amp; card CC system
+│   ├── <a href="games/andalas/andalas.md"><b>Andalas/</b></a>          [Unreal C++]  Gameplay &amp; AI Dev   — UE5 C++ migration, State Tree &amp; GAS
 │   ├── <a href="games/indekos/indekos.md"><b>Indekos/</b></a>          [Unity C#]    Lead Systems Dev    — Scene-per-location &amp; quest spawner
 │   ├── <a href="games/dgreek-cook/dgreekcook.md"><b>Dgreek-Cook/</b></a>      [Unity C#]    Gameplay Systems    — Local co-op FSM &amp; Unreal rebuild
 │   ├── <a href="games/carnifall/carnifall.md"><b>Carnifall/</b></a>        [Unity C#]    Systems &amp; Gameplay  — Unified FSM, turrets &amp; pooling
