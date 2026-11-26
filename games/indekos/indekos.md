@@ -37,7 +37,7 @@ Highlights    : Scene-per-location architecture, dynamic prefab quest spawner, c
 Core Patterns : Custom Singleton & Unified State Manager (16+ GameStates) with InputBridge & Encryption
 World & Quest : Re-architected from scene-per-quest to scene-per-location + dynamic prefab quest spawning
 Plugin Bridge : Seamless C# integration with Adventure Creator, NPC crowds, Day/Time cycle & SaveLoadManager
-Mini-Games    : Rhythm Guitar, Mingsut, Tarot reading, Study/Minimarket loops & custom Editor tooling
+Sub-Systems   : Modular mini-game state handlers, daily activity loops & custom Unity Editor tooling
 ```
 
 <details>
@@ -45,21 +45,39 @@ Mini-Games    : Rhythm Guitar, Mingsut, Tarot reading, Study/Minimarket loops & 
 
 ```text
 ├───core
-│   ├───Managers (Audio, Character, Cheat, ChitChat, Component, DateTime, Game, Input, Level, Quest, SaveLoad, Story, Study, UI)
-│   ├───additional (Encryption, TriggerManager, Triggers: Action, DialogueNPC, Door, Input, Sleep)
+│   ├───Managers (Audio, Character, Component, DateTime, Game, Input, Level, Quest, SaveLoad, Story, UI)
+│   ├───additional (Encryption, TriggerManager, BaseTriggers: Action, Dialogue, Door, Input, Rest)
 │   └───pattern
 │       │   singleton.cs
 │       ├───input (InputBridge)
-│       └───state (GameState, stateinterface -> Gameplay, Cutscene, Guitar, Mingsut, Tarot, Study, Minimarket, NextDay, Pause)
+│       └───state (GameState, stateinterface -> Gameplay, Cutscene, MiniGameStates, ActivityStates, NextDay, Pause)
 ├───editor (ComponentSaveListWindow, GranularApplyWindow, HierarchyHighlighter, PlayModeSave)
 └───system
     ├───audio & loading (BGM, SFX, LoadingController)
-    ├───MiniGame (Gitar, Guitar Final, Mingsut)
-    ├───NPC & World (Crowd
-
+    ├───MiniGames (Modular Rhythm & Interactive Mini-Game Controllers)
+    ├───NPC & World (Crowd, NpcController, MiniMapController, DayCycleController)
+    ├───Quest (Quest, QuestController, questcontrollerinterface, UiQuestSystem)
+    └───UI (ButtonHover, UIBindSystem)
 ```
 
 </details>
+
+---
+
+### Technical Challenges & Solutions
+```yaml
+Challenge     : Severe performance bottlenecks and bloat caused by the legacy 'scene-per-quest' structure
+Solution      : Re-architected into a 'scene-per-location' model with dynamic script-driven prefab/quest spawning
+Result        : Eliminated scene-loading spikes, unified single-player state flow, and streamlined team workflow
+```
+
+---
+
+### Links & Media
+<pre>
+Steam Page     : <a href="https://store.steampowered.com/app/3161550/Indekos/">Steam Store (Indekos)</a>
+Full Video     : -
+</pre>
 
 <br>
 
