@@ -10,7 +10,7 @@ Platform         : PC (Windows)
 Engine           : Unreal Engine 5
 Language         : C++ & Blueprints (GAS, State Tree, Data Assets)
 Role             : Game Programmer (Gameplay Systems & Character Behavior)
-Version Control  : Git
+Version Control  : Diversion -> Perforce (P4V) 
 Timeline         : January 2026 – June 2026
 ```
 
