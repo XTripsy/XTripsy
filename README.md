@@ -18,6 +18,5 @@
 │   └── <a href="games/criminal/criminal.md"><b>Criminal/</b></a>         [Unity C#]    Solo Developer      — 18+ modular weapons, NavMesh &amp; IK
 │
 └── <b>tools/</b>
-    ├── <a href="tools/plugin-1.md"><b>Nama-Plugin-1/</b></a>    [Unity C#]    Custom Editor       — Level generator &amp; batching tool
-    └── <a href="tools/plugin-2.md"><b>Nama-Plugin-2/</b></a>    [Unreal C++]  Engine Plugin       — Custom debug profiler &amp; logger
+    └── <a href="tools/fluxPrime.md"><b>fluxPrime/</b></a>        [Unreal C++]  Engine Plugin       — DOD/SoA crowd simulation &amp; VAT/ISMC
 </pre>
