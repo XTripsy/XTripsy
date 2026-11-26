@@ -18,5 +18,5 @@
 │   └── <a href="games/criminal/criminal.md"><b>Criminal/</b></a>         [Unity C#]    Solo Developer      — 18+ modular weapons, NavMesh &amp; IK
 │
 └── <b>tools/</b>
-    └── <a href="tools/fluxPrime.md"><b>fluxPrime/</b></a>        [Unreal C++]  Engine Plugin       — DOD/SoA crowd simulation &amp; VAT/ISMC
+    └── <a href="tools/fluxPrime/fluxPrime.md"><b>fluxPrime/</b></a>        [Unreal C++]  Engine Plugin       — DOD/SoA crowd simulation &amp; VAT/ISMC
 </pre>
