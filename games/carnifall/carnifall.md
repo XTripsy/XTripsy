@@ -9,11 +9,11 @@ Engine           : Unity
 Language         : C#
 Role             : Systems & Gameplay Programmer
 Version Control  : Git
-Timeline         :  2025 -  2025
+Timeline         : August 2025 - August 2025
 ```
 
 ### Visual Showcase
-![Gameplay GIF Carnifall](../carnifall-gif.gif)
+![Gameplay GIF Carnifall](carnifall-gif.gif)
 
 ```yaml
 Showcase      : Third-person wave-based arena combat
@@ -24,9 +24,9 @@ Highlights    : Unified state management, turret placement, object-pooled projec
 <summary><b>📸 View Screenshot Gallery (3)</b></summary>
 <br>
 
-![Screenshot Carnifall 1](../gameplay-1.png)
-![Screenshot Carnifall 2](../gameplay-2.png)
-![Screenshot Carnifall 3](../gameplay-3.png)
+![Screenshot Carnifall 1](gameplay-1.png)
+![Screenshot Carnifall 2](gameplay-2.png)
+![Screenshot Carnifall 3](gameplay-3.png)
 
 </details>
 
@@ -82,10 +82,10 @@ Result        : Strictly gated player actions per state context & eliminated run
 ---
 
 ### Links & Media
-```yaml
-Full Video    : [https://youtu.be/HOl8ArfCyUw](https://youtu.be/HOl8ArfCyUw)
-Playable Build: -
-```
+<pre>
+Full Video     : <a href="https://youtu.be/HOl8ArfCyUw">https://youtu.be/HOl8ArfCyUw</a>
+Playable Build : -
+</pre>
 
 <br>
 
