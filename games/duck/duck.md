@@ -23,12 +23,13 @@ Highlights    : Unreal Gameplay Framework, Behavior Tree enemy AI, custom 3D mod
 ```
 
 <details>
-<summary><b>📸 View Screenshot Gallery (3)</b></summary>
+<summary><b>📸 View Screenshot Gallery (4)</b></summary>
 <br>
 
 ![Screenshot Duck 1](gameplay-1.png)
-![Screenshot Duck 2](gameplay-2.png)
-![Screenshot Duck 3](gameplay-3.png)
+![Screenshot Duck 2](gameplay-10.png)
+![Screenshot Duck 3](gameplay-11.png)
+![Screenshot Duck 3](gameplay-6.png)
 
 </details>
 
