@@ -15,7 +15,7 @@ Timeline         : September 2025 – December 2025 (June 2025 - July 2025 (unre
 ```
 
 ### Visual Showcase
-![Gameplay GIF Dgreek Cook](dgreek-cook-gif.gif)
+![Gameplay GIF Dgreek Cook](dgreekcook-gif.gif)
 
 ```yaml
 Showcase      : Fast-paced cooperative cooking & skill-check game rebuilt in Unity
