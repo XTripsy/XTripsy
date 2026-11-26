@@ -35,6 +35,7 @@ My Proof       : Engineered centralized ObjectPoolManager & ScriptableObject dat
 Email          : <a href="mailto:epoch.aditya.flux@gmail.com">epoch.aditya.flux@gmail.com</a>
 LinkedIn       : <a href="https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332">linkedin.com/in/aditya-muhammad-ifanrus-a55948332</a>
 Itch.io        : <a href="https://aditya-muhammad-ifanrus.itch.io/">aditya-muhammad-ifanrus.itch.io</a>
+Instagram      : <a href="https://www.instagram.com/ya.aditt_">instagram.com/ya.aditt_</a>
 Discord        : itsadit
 Full Portfolio : <a href="../README.md">github.com/XTripsy/XTripsy</a>
 </pre>
