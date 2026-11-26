@@ -6,7 +6,7 @@
 Project          : Carnifall
 Status           : Prototype
 Context          : Team Project
-Platform         : PC
+Platform         : PC (Windows)
 Engine           : Unity
 Language         : C#
 Role             : Systems & Gameplay Programmer
