@@ -15,7 +15,7 @@ Timeline         : June 2025 - October 2025
 ```
 
 ### Visual Showcase
-![Gameplay GIF Triple Shift](triple-shift-gif.gif)
+![Gameplay GIF Triple Shift](tripleshift-gif.gif)
 
 ```yaml
 Showcase      : Custom 2D C++ game engine built from scratch around Entity Component System (ECS)
