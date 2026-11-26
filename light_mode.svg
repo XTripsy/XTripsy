@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="&#39;Consolas&#39;, &#39;Courier New&#39;, monospace" width="900px" height="505px" font-size="13px">
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Consolas', 'Courier New', monospace" width="900px" height="505px" font-size="13px">
   <style>
     .bg { fill: #ffffff; stroke: #d0d7de; stroke-width: 1.5px; }
     .c-bg { fill: #afb8c1; }
@@ -15,7 +16,7 @@
     text, tspan { white-space: pre; }
   </style>
 
-  <rect x="2" y="2" width="896" height="501" rx="10" class="bg" />
+  <rect x="2" y="2" width="896" height="501" rx="10" class="bg"/>
 
   
   <text x="28" y="58" font-size="12px">
@@ -66,8 +67,8 @@
     <tspan x="410" dy="19"><tspan class="key">Discord:</tspan><tspan class="dots"> ......................................... </tspan><tspan class="val">itsadit</tspan></tspan>
 
     <tspan x="410" dy="34"><tspan class="header">- GitHub Stats</tspan> <tspan class="dots">-------------------------------------------</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Repos:</tspan><tspan class="dots" id="repo_dots"> ..... </tspan><tspan class="val" id="repo_data">28 {Contributed: 3}</tspan> <tspan class="dots">|</tspan> <tspan class="key">Stars:</tspan><tspan class="dots" id="star_dots"> .............. </tspan><tspan class="val" id="star_data">1</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Commits:</tspan><tspan class="dots" id="commit_dots"> ................. </tspan><tspan class="val" id="commit_data">734</tspan> <tspan class="dots">|</tspan> <tspan class="key">Followers:</tspan><tspan class="dots" id="follower_dots"> ............ </tspan><tspan class="val" id="follower_data">5</tspan></tspan>
-    <tspan x="410" dy="19"><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="dots" id="loc_dots"> .. </tspan><tspan class="val" id="loc_data">2,046,085</tspan> <tspan class="val">( </tspan><tspan class="add" id="loc_add">2,107,635++</tspan><tspan class="val">, </tspan><tspan class="del" id="loc_del">61,550--</tspan><tspan class="val"> )</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Repos:</tspan><tspan class="dots" id="repo_dots"> ...... </tspan><tspan class="val" id="repo_data">28 {Contributed: 3}</tspan> <tspan class="dots">|</tspan> <tspan class="key">Stars:</tspan><tspan class="dots" id="star_dots"> .............. </tspan><tspan class="val" id="star_data">1</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Commits:</tspan><tspan class="dots" id="commit_dots"> ................. </tspan><tspan class="val" id="commit_data">737</tspan> <tspan class="dots">|</tspan> <tspan class="key">Followers:</tspan><tspan class="dots" id="follower_dots"> ............ </tspan><tspan class="val" id="follower_data">5</tspan></tspan>
+    <tspan x="410" dy="19"><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="dots" id="loc_dots"> .. </tspan><tspan class="val" id="loc_data">2,046,170</tspan> <tspan class="val">( </tspan><tspan class="add" id="loc_add">2,107,744++</tspan><tspan class="val">, </tspan><tspan class="del" id="loc_del">61,574--</tspan><tspan class="val"> )</tspan></tspan>
   </text>
 </svg>
