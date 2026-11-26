@@ -5,6 +5,8 @@
 ```yaml
 Project          : Carnifall
 Status           : Prototype
+Context          : Team Project
+Platform         : PC
 Engine           : Unity
 Language         : C#
 Role             : Systems & Gameplay Programmer
