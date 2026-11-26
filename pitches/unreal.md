@@ -32,7 +32,9 @@ My Proof       : Exposed FInstancedStruct & UPrimaryDataAsset presets in fluxPri
 
 ### Let's Connect
 <pre>
-Email          : epoch.aditya.flux@gmail.com
+Email          : <a href="mailto:epoch.aditya.flux@gmail.com">epoch.aditya.flux@gmail.com</a>
+LinkedIn       : <a href="https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332">linkedin.com/in/aditya-muhammad-ifanrus-a55948332</a>
+Itch.io        : <a href="https://aditya-muhammad-ifanrus.itch.io/">aditya-muhammad-ifanrus.itch.io</a>
 Discord        : itsadit
 Full Portfolio : <a href="../README.md">github.com/XTripsy/XTripsy</a>
 </pre>
