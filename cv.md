@@ -6,7 +6,7 @@
 <pre>
 <span class="t-accent">ADITYA MUHAMMAD IFANRUS</span> (XTripsy)
 <span class="t-key">Engine &amp; Gameplay Programmer</span> — C++ | C# | Unreal Engine 5 | Unity | OpenGL
-Surabaya, Indonesia &bull; <a href="[https://mail.google.com/mail/?view=cm&fs=1&to=epoch.aditya.flux@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=epoch.aditya.flux@gmail.com)" target="_blank">epoch.aditya.flux@gmail.com</a> &bull; Discord: itsadit
+Surabaya, Indonesia &bull; <a href="https://mail.google.com/mail/?view=cm&fs=1&to=epoch.aditya.flux@gmail.com" target="_blank">epoch.aditya.flux@gmail.com</a> &bull; Discord: itsadit
 <a href="[https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332](https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332)">LinkedIn</a> | <a href="[https://aditya-muhammad-ifanrus.itch.io/](https://aditya-muhammad-ifanrus.itch.io/)">Itch.io</a> | <a href="[https://github.com/XTripsy](https://github.com/XTripsy)">GitHub</a> | <a href="[https://xtripsy.github.io/XTripsy/](https://xtripsy.github.io/XTripsy/)">Web Portfolio</a>
 <span class="t-dim"><i>Tip: Press Ctrl+P (Save as PDF) to export a clean ATS-ready copy.</i></span>
 </pre>
