@@ -71,17 +71,27 @@
     .t-accent { color: #ffa657; font-weight: bold; }
     .t-hl     { color: #d2a8ff; font-weight: bold; }
 
+    /* Dual-Mode Print (Screen Terminal vs ATS Print Layout) */
+    .print-only { display: none; }
+
     @media print {
+      @page {
+        margin: 13mm 15mm;
+        size: A4;
+      }
       body {
         background-color: #ffffff;
-        color: #1f2328;
+        color: #111827;
+        font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+        font-size: 9.8pt;
+        line-height: 1.4;
         margin: 0;
-        padding: 16px;
+        padding: 0;
         max-width: 100%;
       }
       h1, h2, h3 {
-        color: #1f2328;
-        border-bottom-color: #d0d7de;
+        color: #111827;
+        border-bottom-color: #9ca3af;
       }
       pre {
         background-color: #f6f8fa;
@@ -89,9 +99,83 @@
         color: #1f2328;
         white-space: pre-wrap;
       }
-      a { color: #0969da; }
-      .t-user, .t-path, .t-key, .t-accent, .t-hl { color: #1f2328; }
-      .t-dim { color: #656d76; }
+      a { color: #111827; text-decoration: none; }
+      .t-user, .t-path, .t-key, .t-accent, .t-hl { color: #111827; }
+      .t-dim { color: #4b5563; }
+
+      .screen-only { display: none !important; }
+      .print-only  { display: block !important; }
+
+      .ats-header {
+        border-bottom: 1.5px solid #111827;
+        padding-bottom: 7px;
+        margin-bottom: 9px;
+      }
+      .ats-name {
+        font-size: 16.5pt;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        color: #000000;
+        margin: 0;
+        border: none;
+        padding: 0;
+      }
+      .ats-role {
+        font-size: 10.2pt;
+        font-weight: 600;
+        color: #374151;
+        margin: 2px 0 3px;
+      }
+      .ats-contact {
+        font-size: 8.8pt;
+        color: #374151;
+        margin: 0;
+      }
+      .ats-section {
+        font-size: 10pt;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        color: #000000;
+        border-bottom: 1px solid #9ca3af;
+        padding-bottom: 2px;
+        margin: 10px 0 5px;
+      }
+      .ats-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 5px;
+      }
+      .ats-title {
+        font-weight: 700;
+        color: #000000;
+        font-size: 9.8pt;
+      }
+      .ats-sub {
+        font-style: italic;
+        color: #374151;
+        font-size: 9.3pt;
+        margin-bottom: 2px;
+      }
+      .ats-date {
+        font-size: 8.8pt;
+        font-weight: 600;
+        color: #374151;
+        white-space: nowrap;
+      }
+      .ats-list {
+        margin: 2px 0 5px;
+        padding-left: 16px;
+      }
+      .ats-list li {
+        margin-bottom: 2px;
+        color: #1f2937;
+      }
+      .ats-p {
+        margin: 0 0 5px;
+        color: #1f2937;
+      }
     }
   </style>
 </head>
