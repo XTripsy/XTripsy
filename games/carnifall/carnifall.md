@@ -1,4 +1,4 @@
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
 
 # `$ cat ~/games/carnifall.md`
 
@@ -91,4 +91,4 @@ Playable Build : -
 
 <br>
 
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
