@@ -63,17 +63,8 @@
   {{ content }}
 
   <script>
-    // Otomatis mengubah link .md menjadi .html saat dibuka lewat GitHub Pages
     document.querySelectorAll('a[href]').forEach(link => {
       const href = link.getAttribute('href');
       if (href && !href.startsWith('http') && href.endsWith('.md')) {
         if (href.endsWith('README.md')) {
-          link.setAttribute('href', href.replace(/README\.md$/, 'index.html'));
-        } else {
-          link.setAttribute('href', href.replace(/\.md$/, '.html'));
-        }
-      }
-    });
-  </script>
-</body>
-</html>
+          link
