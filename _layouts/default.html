@@ -58,6 +58,7 @@
     }
     summary { cursor: pointer; color: #e6edf3; }
     img, video { max-width: 100%; height: auto; border-radius: 6px; }
+    details img { margin-top: 12px; display: block; }
     hr { border: 0; border-top: 1px solid #30363d; margin: 24px 0; }
 
     /* Semantic Terminal Hierarchy */
@@ -96,7 +97,19 @@
   {{ content | replace: '.md"', '.html"' | replace: 'README.html"', '"' }}
 
   <script>
-    // 1. Fallback konversi link .md -> .html & prefetch halaman saat kursor mendekat
+    // 1. Render otomatis blok kode (```) dan gambar (![alt](url)) di dalam semua <details>
+    document.querySelectorAll('details').forEach(details => {
+      let html = details.innerHTML;
+      html = html.replace(/```[a-zA-Z0-9_-]*\r?\n([\s\S]*?)```/g, (_, code) => {
+        return `<pre><code>${code.trim()}</code></pre>`;
+      });
+      html = html.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (_, alt, src) => {
+        return `<img src="${src}" alt="${alt}">`;
+      });
+      details.innerHTML = html;
+    });
+
+    // 2. Fallback konversi link .md -> .html & prefetch halaman saat kursor mendekat
     document.querySelectorAll('a[href]').forEach(link => {
       const href = link.getAttribute('href');
       if (href && !href.startsWith('http') && href.endsWith('.md')) {
@@ -115,7 +128,7 @@
       }, { once: true });
     });
 
-    // 2. Lazy loading gambar & screenshot (baru dimuat saat terlihat / <details> dibuka)
+    // 3. Lazy loading gambar & screenshot (baru dimuat saat terlihat / <details> dibuka)
     document.querySelectorAll('img').forEach(img => {
       if (!img.hasAttribute('loading')) {
         img.setAttribute('loading', 'lazy');
@@ -123,7 +136,7 @@
       img.setAttribute('decoding', 'async');
     });
 
-    // 3. Progressive streaming untuk video (hanya ambil metadata & frame awal dulu)
+    // 4. Progressive streaming untuk video (hanya ambil metadata & frame awal dulu)
     document.querySelectorAll('video').forEach(video => {
       if (!video.hasAttribute('preload')) {
         video.setAttribute('preload', 'metadata');
