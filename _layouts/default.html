@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: "XTripsy | Engine & Gameplay Programmer" }}</title>
+  <link rel="preload" as="image" href="{{ '/dark_mode.svg' | relative_url }}" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23161b22'/><path d='M8 10L15 16L8 22' fill='none' stroke='%23e6edf3' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/><path d='M17 22H24' fill='none' stroke='%2358a6ff' stroke-width='3.2' stroke-linecap='round'/></svg>">
   <style>
     * { box-sizing: border-box; }
@@ -92,19 +93,26 @@
   </style>
 </head>
 <body>
-  {{ content }}
+  {{ content | replace: '.md"', '.html"' | replace: 'README.html"', '"' }}
 
   <script>
-    // 1. Ubah tautan .md menjadi .html di GitHub Pages
+    // 1. Fallback konversi link .md -> .html & prefetch halaman saat kursor mendekat
     document.querySelectorAll('a[href]').forEach(link => {
       const href = link.getAttribute('href');
       if (href && !href.startsWith('http') && href.endsWith('.md')) {
-        if (href.endsWith('README.md')) {
-          link.setAttribute('href', '{{ "/" | relative_url }}');
-        } else {
-          link.setAttribute('href', href.replace(/\.md$/, '.html'));
-        }
+        const cleanHref = href.endsWith('README.md') ? '{{ "/" | relative_url }}' : href.replace(/\.md$/, '.html');
+        link.setAttribute('href', cleanHref);
       }
+
+      link.addEventListener('mouseenter', () => {
+        const targetHref = link.getAttribute('href');
+        if (targetHref && !targetHref.startsWith('http') && !targetHref.startsWith('mailto:') && !document.querySelector(`link[href="${targetHref}"]`)) {
+          const prefetch = document.createElement('link');
+          prefetch.rel = 'prefetch';
+          prefetch.href = targetHref;
+          document.head.appendChild(prefetch);
+        }
+      }, { once: true });
     });
 
     // 2. Lazy loading gambar & screenshot (baru dimuat saat terlihat / <details> dibuka)
