@@ -1,4 +1,4 @@
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
 
 # `$ cat ~/games/criminal.md`
 
@@ -86,4 +86,4 @@ Playable Build : -
 
 <br>
 
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
