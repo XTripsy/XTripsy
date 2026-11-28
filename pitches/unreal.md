@@ -33,7 +33,7 @@
 <pre>
 <span class="t-user">xtripsy@github</span><span class="t-dim">:</span><span class="t-path">~/pitches/unreal-systems</span>$ tree -L 1
 <span class="t-dim">.
-├──</span> <a href="../tools/fluxPrime.md"><b>fluxPrime/</b></a>        <span class="t-hl">[Unreal C++]</span>  Engine Plugin      <span class="t-dim">—</span> DOD/SoA crowd simulation &amp; VAT/ISMC
+├──</span> <a href="../tools/fluxPrime/fluxPrime.md"><b>fluxPrime/</b></a>        <span class="t-hl">[Unreal C++]</span>  Engine Plugin      <span class="t-dim">—</span> DOD/SoA crowd simulation &amp; VAT/ISMC
 <span class="t-dim">├──</span> <a href="../games/andalas/andalas.md"><b>Andalas/</b></a>          <span class="t-hl">[Unreal C++]</span>  Gameplay &amp; AI Dev  <span class="t-dim">—</span> Commercial UE5 C++ migration, State Tree &amp; GAS
 <span class="t-dim">└──</span> <a href="../games/neo-strife/neostrife.md"><b>Neo-Strife/</b></a>       <span class="t-hl">[Unreal C++]</span>  Solo Developer     <span class="t-dim">—</span> 100% pure C++ FPS &amp; card CC system
 </pre>
