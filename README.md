@@ -11,7 +11,7 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-    <img alt="XTripsy GitHub Profile" src="light_mode.svg">
+    <img alt="XTripsy GitHub Profile" src="light_mode.svg" width="900" height="505" loading="eager">
   </picture>
 </div>
 
