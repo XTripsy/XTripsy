@@ -41,7 +41,7 @@ that accelerates designer workflows and stabilizes frame pacing.
 
 <h3>Selected Technical Projects</h3>
 <pre>
-<span class="t-dim">├──</span> <a href="tools/fluxPrime.md"><b>fluxPrime</b></a>      <span class="t-hl">[UE 5.6 C++]</span>  DOD/SoA crowd simulation plugin with VAT, ISMC &amp; 10 Hz netcode
+<span class="t-dim">├──</span> <a href="tools/fluxPrime/fluxPrime.md"><b>fluxPrime</b></a>      <span class="t-hl">[UE 5.6 C++]</span>  DOD/SoA crowd simulation plugin with VAT, ISMC &amp; 10 Hz netcode
 <span class="t-dim">├──</span> <a href="games/triple-shift/tripleshift.md"><b>Triple-Shift</b></a>   <span class="t-hl">[OpenGL C++]</span>  Custom 2D ECS game engine, shader pipeline &amp; JSON level loader
 <span class="t-dim">└──</span> <a href="games/neo-strife/neostrife.md"><b>Neo-Strife</b></a>     <span class="t-hl">[UE5 C++]</span>     Fast-paced FPS built 100% in pure C++ (zero Blueprints)
 </pre>
