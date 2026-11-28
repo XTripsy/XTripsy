@@ -56,7 +56,7 @@
       margin: 16px 0;
     }
     summary { cursor: pointer; color: #e6edf3; }
-    img { max-width: 100%; height: auto; border-radius: 6px; }
+    img, video { max-width: 100%; height: auto; border-radius: 6px; }
     hr { border: 0; border-top: 1px solid #30363d; margin: 24px 0; }
 
     /* Semantic Terminal Hierarchy */
@@ -95,6 +95,7 @@
   {{ content }}
 
   <script>
+    // 1. Ubah tautan .md menjadi .html di GitHub Pages
     document.querySelectorAll('a[href]').forEach(link => {
       const href = link.getAttribute('href');
       if (href && !href.startsWith('http') && href.endsWith('.md')) {
@@ -103,6 +104,21 @@
         } else {
           link.setAttribute('href', href.replace(/\.md$/, '.html'));
         }
+      }
+    });
+
+    // 2. Lazy loading gambar & screenshot (baru dimuat saat terlihat / <details> dibuka)
+    document.querySelectorAll('img').forEach(img => {
+      if (!img.hasAttribute('loading')) {
+        img.setAttribute('loading', 'lazy');
+      }
+      img.setAttribute('decoding', 'async');
+    });
+
+    // 3. Progressive streaming untuk video (hanya ambil metadata & frame awal dulu)
+    document.querySelectorAll('video').forEach(video => {
+      if (!video.hasAttribute('preload')) {
+        video.setAttribute('preload', 'metadata');
       }
     });
   </script>
