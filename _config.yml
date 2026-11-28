@@ -2,6 +2,7 @@ title: XTripsy Portfolio
 markdown: kramdown
 kramdown:
   input: GFM
+  parse_block_html: true
 defaults:
   - scope:
       path: ""
