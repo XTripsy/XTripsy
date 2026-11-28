@@ -9,6 +9,26 @@ BIRTHDAY = datetime.date(2004, 8, 1)
 HEADERS = {'Authorization': 'token ' + os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ.get('USER_NAME', 'XTripsy')
 
+# Filter ekstensi kode murni & folder library/auto-generated yang diabaikan
+VALID_EXTENSIONS = (
+    '.cpp', '.h', '.hpp', '.c', '.cs', '.gd',
+    '.py', '.js', '.hlsl', '.glsl', '.vert', '.frag'
+)
+IGNORED_PATHS = (
+    'libraries/', 'thirdparty/', 'third_party/', 'plugins/',
+    'intermediate/', 'library/', 'binaries/', 'saved/',
+    'builds/', 'build/', 'bin/', 'obj/', 'packages/',
+    'glad.c', 'imgui', 'nlohmann', 'stb_'
+)
+IGNORE_REPOS = set()  # Tambahkan nama repo jika ada repo tertentu yang ingin dilewati seluruhnya
+
+
+def is_valid_code_file(filepath):
+    path_lower = filepath.lower()
+    if not path_lower.endswith(VALID_EXTENSIONS):
+        return False
+    return not any(ignored in path_lower for ignored in IGNORED_PATHS)
+
 
 def daily_readme(birthday):
     diff = relativedelta.relativedelta(datetime.date.today(), birthday)
@@ -126,18 +146,15 @@ def commit_counter(username):
 
 
 def loc_query(username, repo_names):
-    query = '''
+    sha_query = '''
     query ($login: String!, $name: String!, $cursor: String) {
         repository(owner: $login, name: $name) {
             defaultBranchRef {
                 target {
                     ... on Commit {
-                        history(first: 25, after: $cursor) {
-                            edges {
-                                node {
-                                    additions
-                                    deletions
-                                }
+                        history(first: 100, after: $cursor) {
+                            nodes {
+                                oid
                             }
                             pageInfo {
                                 endCursor
@@ -153,21 +170,38 @@ def loc_query(username, repo_names):
     additions = 0
     deletions = 0
 
+    session = requests.Session()
+    session.headers.update(HEADERS)
+
     for repo_name in repo_names:
+        if repo_name in IGNORE_REPOS:
+            continue
+
         cursor = None
+        commit_shas = []
         try:
             while True:
-                res = simple_request(query, {'login': username, 'name': repo_name, 'cursor': cursor})
+                res = simple_request(sha_query, {'login': username, 'name': repo_name, 'cursor': cursor})
                 branch = res['data']['repository'].get('defaultBranchRef')
                 if not branch or not branch.get('target') or not branch['target'].get('history'):
                     break
                 history = branch['target']['history']
-                for commit in history['edges']:
-                    additions += commit['node']['additions']
-                    deletions += commit['node']['deletions']
+                for node in history['nodes']:
+                    commit_shas.append(node['oid'])
                 if not history['pageInfo']['hasNextPage']:
                     break
                 cursor = history['pageInfo']['endCursor']
+
+            for sha in commit_shas:
+                url = f"https://api.github.com/repos/{username}/{repo_name}/commits/{sha}"
+                resp = session.get(url, timeout=30)
+                if resp.status_code != 200:
+                    continue
+                for f in resp.json().get('files', []):
+                    if is_valid_code_file(f.get('filename', '')):
+                        additions += f.get('additions', 0)
+                        deletions += f.get('deletions', 0)
+
         except Exception as e:
             print(f"Skipping {repo_name} due to error: {e}")
             continue
