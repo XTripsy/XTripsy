@@ -21,7 +21,6 @@ that accelerates designer workflows and stabilizes frame pacing.
 <h3>Experience</h3>
 <pre>
   
-<b></b>
 <b>Busy Beaver Studio (PT. Berang Berang Sibuk)</b>               Jan 2026 – Jun 2026
 <i>Game Programmer Intern — Andalas: Realms of Eternal Lights (Unreal Engine 5 / C++)</i>
  ├── Migrated core Companion Handler, class hierarchies &amp; State Tree Tasks from Blueprint to C++
@@ -30,7 +29,6 @@ that accelerates designer workflows and stabilizes frame pacing.
  └── Authored C++ Unit Tests &amp; Blueprint Functional Tests for daily builds (Perforce P4V / Diversion)
 <b>-------------------------------------------------------------------------------------------------------------</b>
 
-<b></b>
 <b>Roleplay Studio</b>                                            Apr 2024 – Nov 2024
 <i>[Lead] Gameplay Systems Developer — Indekos (Unity / C#)</i>
  ├── Re-architected commercial life-sim from scene-per-quest to scene-per-location architecture
