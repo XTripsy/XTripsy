@@ -67,4 +67,12 @@
       const href = link.getAttribute('href');
       if (href && !href.startsWith('http') && href.endsWith('.md')) {
         if (href.endsWith('README.md')) {
-          link
+          link.setAttribute('href', '{{ "/" | relative_url }}');
+        } else {
+          link.setAttribute('href', href.replace(/\.md$/, '.html'));
+        }
+      }
+    });
+  </script>
+</body>
+</html>
