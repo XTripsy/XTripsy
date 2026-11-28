@@ -1,4 +1,4 @@
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
 
 # `$ cat ~/games/dgreek-cook.md`
 
@@ -84,4 +84,4 @@ Playable Build : -
 
 <br>
 
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
