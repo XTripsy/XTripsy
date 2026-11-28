@@ -11,7 +11,7 @@ Engine           : Unity (Adventure Creator Integration)
 Language         : C#
 Role             : [Lead] Gameplay Systems Developer
 Version Control  : Git
-Timeline         : April 2024 – November 2024
+Timeline         : April 2025 – November 2025
 ```
 
 ### Visual Showcase
