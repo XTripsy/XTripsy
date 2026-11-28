@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: "XTripsy | Engine & Gameplay Programmer" }}</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      background-color: #0d1117;
+      color: #e6edf3;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      max-width: 920px;
+      margin: 40px auto;
+      padding: 0 24px 64px;
+    }
+    h1, h2, h3 {
+      color: #e6edf3;
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 0.3em;
+      margin-top: 24px;
+    }
+    a { color: #58a6ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    pre {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 16px;
+      overflow-x: auto;
+      font-family: "Consolas", "Courier New", monospace;
+      font-size: 13.5px;
+      line-height: 1.5;
+      color: #e6edf3;
+    }
+    code {
+      font-family: "Consolas", "Courier New", monospace;
+      background-color: rgba(110, 118, 129, 0.25);
+      padding: 0.2em 0.4em;
+      border-radius: 6px;
+      font-size: 85%;
+    }
+    pre code {
+      background-color: transparent;
+      padding: 0;
+      font-size: inherit;
+    }
+    details {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 16px 0;
+    }
+    summary { cursor: pointer; color: #e6edf3; }
+    img { max-width: 100%; height: auto; border-radius: 6px; }
+    hr { border: 0; border-top: 1px solid #30363d; margin: 24px 0; }
+  </style>
+</head>
+<body>
+  {{ content }}
+
+  <script>
+    // Otomatis mengubah link .md menjadi .html saat dibuka lewat GitHub Pages
+    document.querySelectorAll('a[href]').forEach(link => {
+      const href = link.getAttribute('href');
+      if (href && !href.startsWith('http') && href.endsWith('.md')) {
+        if (href.endsWith('README.md')) {
+          link.setAttribute('href', href.replace(/README\.md$/, 'index.html'));
+        } else {
+          link.setAttribute('href', href.replace(/\.md$/, '.html'));
+        }
+      }
+    });
+  </script>
+</body>
+</html>
