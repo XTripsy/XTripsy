@@ -3,48 +3,48 @@
 <h1><code>$ cat ~/pitches/unity-indie.md</code></h1>
 
 <pre>
-<b>xtripsy@github</b>:<b>~/pitches/unity-indie</b>$ whoami --target="Indie Unity Studio"
-.
-├── <b>Candidate</b>    — <b>Aditya Muhammad Ifanrus</b> (XTripsy)
-├── <b>Role Pitch</b>   — Systems &amp; Gameplay Programmer (Unity / C#)
-├── <b>Track Record</b> — Commercial &amp; Indie Production (@RoleplayStudio, @AegisStudio)
-├── <b>Core Value</b>   — Scalable C# architecture &amp; custom Editor tools that speed up small-team iteration
-└── <b>Availability</b> — Full-time / Contract (Ready to join)
+<span class="t-user">xtripsy@github</span><span class="t-dim">:</span><span class="t-path">~/pitches/unity-indie</span>$ whoami --target="Indie Game Studio (Unity)"
+<span class="t-dim">.
+├──</span> <span class="t-key">Candidate</span>    <span class="t-dim">—</span> <span class="t-accent">Aditya Muhammad Ifanrus</span> (XTripsy)
+<span class="t-dim">├──</span> <span class="t-key">Role Pitch</span>   <span class="t-dim">—</span> Systems &amp; Gameplay C# Programmer (Unity)
+<span class="t-dim">├──</span> <span class="t-key">Track Record</span> <span class="t-dim">—</span> Commercial Lead Systems Dev (@RoleplayStudio) &amp; Co-op Systems (@AegisStudio)
+<span class="t-dim">├──</span> <span class="t-key">Core Value</span>   <span class="t-dim">—</span> Scalable C# architecture, custom Editor tooling &amp; zero-spike runtime optimization
+<span class="t-dim">└──</span> <span class="t-key">Availability</span> <span class="t-dim">—</span> Full-time / Contract (Ready to join)
 </pre>
 
 <h3>Solving Indie Unity Bottlenecks</h3>
 
 <pre>
-<b>[01] Scene Bloat &amp; Designer Bottlenecks</b>
- ├── <b>Studio Pain</b> : Slow level/quest iteration when designers depend heavily on programmers
- └── <b>My Proof</b>    : Re-architected <b>Indekos</b> from scene-per-quest to <b>scene-per-location</b> + 4 custom Editor windows
+<span class="t-accent">[01] Scene Bloat &amp; Slow Designer Iteration</span>
+ <span class="t-dim">├──</span> <span class="t-key">Studio Pain</span> <span class="t-dim">:</span> Designers blocked by scene conflicts and manual hierarchy setup on growing projects
+ <span class="t-dim">└──</span> <span class="t-key">My Proof</span>    <span class="t-dim">:</span> Re-architected <span class="t-hl">Indekos</span> to <b>scene-per-location</b> + built 4 custom Unity Editor windows
 
-<b>[02] Fragile Code During Rapid Prototyping</b>
- ├── <b>Studio Pain</b> : Tightly coupled gameplay scripts breaking during feature pivots or co-op expansion
- └── <b>My Proof</b>    : Built decoupled <b>Singleton + State &amp; Interface</b> frameworks in <b>Dgreek-Cook</b> &amp; <b>Carnifall</b>
+<span class="t-accent">[02] Tightly Coupled Gameplay &amp; Co-op Regressions</span>
+ <span class="t-dim">├──</span> <span class="t-key">Studio Pain</span> <span class="t-dim">:</span> Spaghettified scripts breaking existing mechanics during rapid prototyping or multiplayer
+ <span class="t-dim">└──</span> <span class="t-key">My Proof</span>    <span class="t-dim">:</span> Engineered decoupled <b>State + Interface</b> frameworks across <span class="t-hl">Dgreek-Cook</span> &amp; <span class="t-hl">Carnifall</span>
 
-<b>[03] Frame Drops &amp; GC Spikes in Combat</b>
- ├── <b>Studio Pain</b> : Runtime instantiation lag on mid-to-low spec hardware
- └── <b>My Proof</b>    : Engineered centralized <b>ObjectPoolManager</b> &amp; <b>ScriptableObject</b> data pipelines in <b>Carnifall</b>
+<span class="t-accent">[03] Frame Drops &amp; GC Spikes in Action Loops</span>
+ <span class="t-dim">├──</span> <span class="t-key">Studio Pain</span> <span class="t-dim">:</span> Frequent Instantiate/Destroy calls causing runtime stutters on mid-to-low spec PCs
+ <span class="t-dim">└──</span> <span class="t-key">My Proof</span>    <span class="t-dim">:</span> Built centralized <b>ObjectPoolManager</b> &amp; <b>ScriptableObject</b> data pipelines in <span class="t-hl">Carnifall</span>
 </pre>
 
 <h3>Selected Relevant Projects</h3>
 
 <pre>
-<b>xtripsy@github</b>:<b>~/pitches/unity-indie</b>$ tree -L 1
-.
-├── <a href="../games/indekos/indekos.md"><b>Indekos/</b></a>          [Unity C#]  Lead Systems Dev    — Commercial rebuild, quest spawner &amp; Editor tools
-├── <a href="../games/dgreek-cook/dgreekcook.md"><b>Dgreek-Cook/</b></a>      [Unity C#]  Gameplay Systems    — Local co-op FSM &amp; interface-driven stations
-└── <a href="../games/carnifall/carnifall.md"><b>Carnifall/</b></a>        [Unity C#]  Systems &amp; Gameplay  — Unified FSM, turret AI &amp; object pooling
+<span class="t-user">xtripsy@github</span><span class="t-dim">:</span><span class="t-path">~/pitches/unity-indie</span>$ tree -L 1
+<span class="t-dim">.
+├──</span> <a href="../games/indekos/indekos.md"><b>Indekos/</b></a>          <span class="t-hl">[Unity C#]</span>  Lead Systems Dev   <span class="t-dim">—</span> Scene-per-location, quest spawner &amp; Editor tools
+<span class="t-dim">├──</span> <a href="../games/dgreek-cook/dgreekcook.md"><b>Dgreek-Cook/</b></a>      <span class="t-hl">[Unity C#]</span>  Gameplay Systems   <span class="t-dim">—</span> Local co-op FSM &amp; interface-driven stations
+<span class="t-dim">└──</span> <a href="../games/carnifall/carnifall.md"><b>Carnifall/</b></a>        <span class="t-hl">[Unity C#]</span>  Systems &amp; Gameplay <span class="t-dim">—</span> Unified FSM, turret AI &amp; object pooling
 </pre>
 
 <h3>Let's Connect</h3>
 
 <pre>
-<b>Curriculum Vitae</b> : <a href="../cv.md"><b>xtripsy.github.io/XTripsy/cv</b></a>
-<b>Email</b>            : <a href="mailto:epoch.aditya.flux@gmail.com">epoch.aditya.flux@gmail.com</a>
-<b>LinkedIn</b>         : <a href="https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332">linkedin.com/in/aditya-muhammad-ifanrus</a>
-<b>Itch.io</b>          : <a href="https://aditya-muhammad-ifanrus.itch.io/">aditya-muhammad-ifanrus.itch.io</a>
-<b>Discord</b>          : itsadit
-<b>Full Portfolio</b>   : <a href="https://xtripsy.github.io/XTripsy/">xtripsy.github.io/XTripsy</a>
+<span class="t-key">Curriculum Vitae</span> <span class="t-dim">:</span> <a href="../cv.md"><b>xtripsy.github.io/XTripsy/cv</b></a>
+<span class="t-key">Email</span>            <span class="t-dim">:</span> <a href="mailto:epoch.aditya.flux@gmail.com">epoch.aditya.flux@gmail.com</a>
+<span class="t-key">LinkedIn</span>         <span class="t-dim">:</span> <a href="https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332">linkedin.com/in/aditya-muhammad-ifanrus-a55948332</a>
+<span class="t-key">Itch.io</span>          <span class="t-dim">:</span> <a href="https://aditya-muhammad-ifanrus.itch.io/">aditya-muhammad-ifanrus.itch.io</a>
+<span class="t-key">Discord</span>          <span class="t-dim">:</span> itsadit
+<span class="t-key">Full Portfolio</span>   <span class="t-dim">:</span> <a href="https://xtripsy.github.io/XTripsy/">xtripsy.github.io/XTripsy</a>
 </pre>
