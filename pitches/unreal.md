@@ -42,7 +42,7 @@
 
 <pre>
 <span class="t-key">Curriculum Vitae</span> <span class="t-dim">:</span> <a href="../cv.md"><b>xtripsy.github.io/XTripsy/cv</b></a>
-<span class="t-key">Email</span>            <span class="t-dim">:</span> <a href="mailto:epoch.aditya.flux@gmail.com">epoch.aditya.flux@gmail.com</a>
+<span class="t-key">Email</span>            <span class="t-dim">:</span> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=epoch.aditya.flux@gmail.com" target="_blank">epoch.aditya.flux@gmail.com</a>
 <span class="t-key">LinkedIn</span>         <span class="t-dim">:</span> <a href="https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332">linkedin.com/in/aditya-muhammad-ifanrus-a55948332</a>
 <span class="t-key">Itch.io</span>          <span class="t-dim">:</span> <a href="https://aditya-muhammad-ifanrus.itch.io/">aditya-muhammad-ifanrus.itch.io</a>
 <span class="t-key">Discord</span>          <span class="t-dim">:</span> itsadit
