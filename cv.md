@@ -94,7 +94,7 @@ that accelerates designer workflows and stabilizes frame pacing.
   <div class="ats-section">Experience</div>
 
   <div class="ats-row">
-    <span class="ats-title">Busy Beaver Studio (PT. Berang Berang Sibuk) — Surabaya / Remote</span>
+    <span class="ats-title">Busy Beaver Studio (PT. Berang Berang Sibuk) — Tangerang, Indonesia (Onsite)</span>
     <span class="ats-date">Jan 2026 – Jun 2026</span>
   </div>
   <div class="ats-sub">Game Programmer Intern — Andalas: Realms of Eternal Lights (Unreal Engine 5 / C++)</div>
@@ -106,7 +106,7 @@ that accelerates designer workflows and stabilizes frame pacing.
   </ul>
 
   <div class="ats-row">
-    <span class="ats-title">Roleplay Studio — Indonesia</span>
+    <span class="ats-title">Roleplay Studio — Malang, Indonesia (Remote)</span>
     <span class="ats-date">Apr 2025 – Nov 2025</span>
   </div>
   <div class="ats-sub">[Lead] Gameplay Systems Developer — Indekos (Unity / C#)</div>
@@ -114,6 +114,17 @@ that accelerates designer workflows and stabilizes frame pacing.
     <li>Re-architected a commercial life-simulation game from scene-per-quest to a scalable scene-per-location architecture.</li>
     <li>Engineered a dynamic prefab quest spawner, encrypted SaveLoadManager, and 16+ structured GameStates.</li>
     <li>Developed 4 custom Unity Editor windows (GranularApply, PlayModeSave, HierarchyHighlighter) to streamline team workflows.</li>
+  </ul>
+
+  <div class="ats-row">
+    <span class="ats-title">Aegis Studio — Surabaya, Indonesia</span>
+    <span class="ats-date">Mar 2025 – Dec 2025</span>
+  </div>
+  <div class="ats-sub">Gameplay Systems Developer — D'Greek Cook &amp; Carnifall (Unreal Engine / Unity C#)</div>
+  <ul class="ats-list">
+    <li>Built the initial Unreal Engine prototype for D'Greek Cook, advancing to the Global Game Jam Plus 24/25 Semi-Finals and Acceleration stage.</li>
+    <li>Re-engineered D'Greek Cook in Unity C# using decoupled Singleton, State, and Interface patterns for local co-op gameplay.</li>
+    <li>Eliminated runtime garbage collection spikes in Carnifall through a centralized ObjectPoolManager and ScriptableObject pipelines.</li>
   </ul>
 
   <div class="ats-row">
