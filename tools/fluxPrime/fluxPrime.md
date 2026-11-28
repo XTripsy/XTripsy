@@ -1,4 +1,4 @@
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
 
 # `$ cat ~/tools/fluxPrime.md`
 
@@ -109,4 +109,4 @@ Video Demo       : -
 
 <br>
 
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
