@@ -1,6 +1,5 @@
 <div class="screen-only">
- 
-[← cd ~/portfolio](README.md)
+<a href="README.md">&larr; cd ~/portfolio</a>
 
 <h1><code>$ cat ~/cv.md</code></h1>
 
