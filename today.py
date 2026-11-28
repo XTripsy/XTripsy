@@ -2,6 +2,7 @@ import datetime
 from dateutil import relativedelta
 import requests
 import os
+import time
 from lxml import etree
 
 BIRTHDAY = datetime.date(2004, 8, 1)
@@ -9,18 +10,20 @@ BIRTHDAY = datetime.date(2004, 8, 1)
 HEADERS = {'Authorization': 'token ' + os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ.get('USER_NAME', 'XTripsy')
 
-# Filter ekstensi kode murni & folder library/auto-generated yang diabaikan
+# Filter ekstensi kode murni & folder library/plugin pihak ketiga yang diabaikan
 VALID_EXTENSIONS = (
     '.cpp', '.h', '.hpp', '.c', '.cs', '.gd',
     '.py', '.js', '.hlsl', '.glsl', '.vert', '.frag'
 )
 IGNORED_PATHS = (
-    'libraries/', 'thirdparty/', 'third_party/', 'plugins/',
+    'libraries/', 'thirdparty/', 'third_party/', 'third-party/',
+    'vendor/', 'external/', 'dependencies/', 'addons/', 'plugins/',
     'intermediate/', 'library/', 'binaries/', 'saved/',
-    'builds/', 'build/', 'bin/', 'obj/', 'packages/',
-    'glad.c', 'imgui', 'nlohmann', 'stb_'
+    'builds/', 'build/', 'bin/', 'obj/', 'packages/', 'node_modules/',
+    'adventurecreator/', 'textmesh pro/', 'cinemachine/', 'dotween/',
+    'glad.c', 'imgui', 'nlohmann', 'stb_', '.min.js', 'unityloader'
 )
-IGNORE_REPOS = set()  # Tambahkan nama repo jika ada repo tertentu yang ingin dilewati seluruhnya
+IGNORE_REPOS = set()  # Masukkan nama repo di sini jika ingin dilewati seluruhnya
 
 
 def is_valid_code_file(filepath):
@@ -167,8 +170,8 @@ def loc_query(username, repo_names):
         }
     }'''
 
-    additions = 0
-    deletions = 0
+    total_add = 0
+    total_del = 0
 
     session = requests.Session()
     session.headers.update(HEADERS)
@@ -177,8 +180,11 @@ def loc_query(username, repo_names):
         if repo_name in IGNORE_REPOS:
             continue
 
+        repo_add = 0
+        repo_del = 0
         cursor = None
         commit_shas = []
+
         try:
             while True:
                 res = simple_request(sha_query, {'login': username, 'name': repo_name, 'cursor': cursor})
@@ -195,18 +201,26 @@ def loc_query(username, repo_names):
             for sha in commit_shas:
                 url = f"https://api.github.com/repos/{username}/{repo_name}/commits/{sha}"
                 resp = session.get(url, timeout=30)
+                if resp.status_code == 403:
+                    print("Rate limit hit, pausing 5s...")
+                    time.sleep(5)
+                    resp = session.get(url, timeout=30)
                 if resp.status_code != 200:
                     continue
                 for f in resp.json().get('files', []):
                     if is_valid_code_file(f.get('filename', '')):
-                        additions += f.get('additions', 0)
-                        deletions += f.get('deletions', 0)
+                        repo_add += f.get('additions', 0)
+                        repo_del += f.get('deletions', 0)
+
+            print(f"[{repo_name}] +{repo_add:,} / -{repo_del:,} (Net: {repo_add - repo_del:,})")
+            total_add += repo_add
+            total_del += repo_del
 
         except Exception as e:
             print(f"Skipping {repo_name} due to error: {e}")
             continue
 
-    return additions, deletions, additions - deletions
+    return total_add, total_del, max(0, total_add - total_del)
 
 
 def find_and_replace(root, element_id, new_text):
