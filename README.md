@@ -5,7 +5,7 @@
 <span class="t-dim">├──</span> <span class="t-key">Role</span>       <span class="t-dim">—</span> Engine &amp; Gameplay Programmer
 <span class="t-dim">├──</span> <span class="t-key">Stack</span>      <span class="t-dim">—</span> C++, C# | Unreal Engine, Unity, OpenGL
 <span class="t-dim">├──</span> <span class="t-key">Focus</span>      <span class="t-dim">—</span> Data-oriented systems, modular gameplay frameworks &amp; optimization
-<span class="t-dim">└──</span> <span class="t-key">Connect</span>    <span class="t-dim">—</span> <a href="cv.md"><b>CV</b></a> <span class="t-dim">|</span> <a href="https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332">LinkedIn</a> <span class="t-dim">|</span> <a href="https://aditya-muhammad-ifanrus.itch.io/">Itch.io</a> <span class="t-dim">|</span> <a href="https://github.com/XTripsy">GitHub</a> <span class="t-dim">|</span> <a href="mailto:epoch.aditya.flux@gmail.com">Email</a> <span class="t-dim">|</span> Discord: itsadit
+<span class="t-dim">└──</span> <span class="t-key">Connect</span>    <span class="t-dim">—</span> <a href="cv.md"><b>CV</b></a> <span class="t-dim">|</span> <a href="https://www.linkedin.com/in/aditya-muhammad-ifanrus-a55948332">LinkedIn</a> <span class="t-dim">|</span> <a href="https://aditya-muhammad-ifanrus.itch.io/">Itch.io</a> <span class="t-dim">|</span> <a href="https://github.com/XTripsy">GitHub</a> <span class="t-dim">|</span> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=epoch.aditya.flux@gmail.com" target="_blank">epoch.aditya.flux@gmail.com</a> <span class="t-dim">|</span> Discord: itsadit
 </pre>
 
 <div align="center">
