@@ -1,4 +1,4 @@
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
 
 # `$ cat ~/games/indekos.md`
 
@@ -81,4 +81,4 @@ Full Video     : -
 
 <br>
 
-[← cd ~/portfolio](../README.md)
+[← cd ~/portfolio](../../README.md)
